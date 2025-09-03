@@ -94,7 +94,9 @@
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased;
+    background: hsl(45, 100%, 98%);
+    color: hsl(220, 40%, 15%);
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
@@ -113,52 +115,52 @@
   }
   
   .gradient-primary {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%);
   }
   
   .gradient-accent {
-    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--primary)) 100%);
+    background: linear-gradient(135deg, hsl(134, 85%, 45%) 0%, hsl(18, 100%, 55%) 100%);
   }
   
   .gradient-vibrant {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--secondary)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(134, 85%, 45%) 50%, hsl(35, 100%, 50%) 100%);
   }
   
   .gradient-indian {
-    background: linear-gradient(135deg, hsl(var(--indian-orange)) 0%, hsl(var(--indian-green)) 50%, hsl(var(--golden-yellow)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(134, 85%, 45%) 50%, hsl(45, 100%, 55%) 100%);
   }
   
   .gradient-warm {
-    background: linear-gradient(135deg, hsl(var(--vibrant-orange)) 0%, hsl(var(--warm-orange)) 100%);
+    background: linear-gradient(135deg, hsl(15, 100%, 58%) 0%, hsl(25, 95%, 60%) 100%);
   }
   
   .gradient-innovation {
-    background: linear-gradient(135deg, hsl(var(--indian-blue)) 0%, hsl(var(--primary)) 50%, hsl(var(--accent)) 100%);
+    background: linear-gradient(135deg, hsl(220, 85%, 55%) 0%, hsl(18, 100%, 55%) 50%, hsl(134, 85%, 45%) 100%);
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-vibrant {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--secondary)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(134, 85%, 45%) 50%, hsl(35, 100%, 50%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-indian {
-    background: linear-gradient(135deg, hsl(var(--indian-orange)) 0%, hsl(var(--indian-green)) 50%, hsl(var(--golden-yellow)) 100%);
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(134, 85%, 45%) 50%, hsl(45, 100%, 55%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-innovation {
-    background: linear-gradient(135deg, hsl(var(--indian-blue)) 0%, hsl(var(--vibrant-orange)) 100%);
+    background: linear-gradient(135deg, hsl(220, 85%, 55%) 0%, hsl(15, 100%, 58%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -189,11 +191,36 @@
     position: absolute;
     inset: 0;
     padding: 2px;
-    background: linear-gradient(145deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
+    background: linear-gradient(145deg, hsl(18, 100%, 55%), hsl(134, 85%, 45%), hsl(35, 100%, 50%));
     border-radius: inherit;
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     z-index: -1;
+  }
+  
+  /* Force button colors */
+  .btn-primary {
+    background: linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%) !important;
+    color: white !important;
+  }
+  
+  .btn-accent {
+    background: linear-gradient(135deg, hsl(134, 85%, 45%) 0%, hsl(18, 100%, 55%) 100%) !important;
+    color: white !important;
+  }
+  
+  /* Force text colors for visibility */
+  .text-visible {
+    color: hsl(220, 40%, 15%) !important;
+  }
+  
+  .text-white-force {
+    color: white !important;
+  }
+  
+  /* Force card backgrounds */
+  .card-white {
+    background: white !important;
   }
   
   .pulse-animation {

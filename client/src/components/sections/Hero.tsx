@@ -29,24 +29,25 @@ export default function Hero() {
             </div>
             
             <div className="grid grid-cols-3 gap-6">
-              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+              <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-orange-300">
                 <div className="text-4xl font-black text-gradient-indian">₹50L+</div>
-                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>💰 Monthly Savings</div>
+                <div className="text-sm font-semibold text-gray-700">💰 Monthly Savings</div>
               </div>
-              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+              <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-green-300">
                 <div className="text-4xl font-black text-gradient-innovation">99.8%</div>
-                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>🎯 Delivery Accuracy</div>
+                <div className="text-sm font-semibold text-gray-700">🎯 Delivery Accuracy</div>
               </div>
-              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+              <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-yellow-300">
                 <div className="text-4xl font-black text-gradient-vibrant">10K+</div>
-                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>🏢 Happy Businesses</div>
+                <div className="text-sm font-semibold text-gray-700">🏢 Happy Businesses</div>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6">
               <Button 
                 size="lg" 
-                className="px-10 py-6 text-xl font-bold gradient-indian hover-glow transform hover:scale-105 transition-all duration-300 shadow-2xl"
+                className="btn-primary px-10 py-6 text-xl font-bold transform hover:scale-105 transition-all duration-300 shadow-2xl"
+                style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}
                 data-testid="button-start-trial"
               >
                 <Rocket className="w-6 h-6 mr-3 animate-bounce" />
@@ -55,7 +56,8 @@ export default function Hero() {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="px-10 py-6 text-xl font-bold border-4 border-primary text-primary hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 shadow-xl"
+                className="px-10 py-6 text-xl font-bold border-4 transform hover:scale-105 transition-all duration-300 shadow-xl"
+                style={{borderColor: 'hsl(18, 100%, 55%)', color: 'hsl(18, 100%, 55%)'}}
                 data-testid="button-watch-demo"
               >
                 <Play className="w-6 h-6 mr-3" />
