@@ -78,24 +78,24 @@ export default function Contact() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 gradient-warm relative">
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-50/95 to-yellow-50/85"></div>
-      <div className="absolute top-20 right-1/4 w-72 h-72 gradient-primary rounded-full opacity-20 blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 left-1/4 w-88 h-88 gradient-accent rounded-full opacity-15 blur-2xl animate-bounce" style={{animationDelay: '1.5s'}}></div>
+    <div className="min-h-screen pt-24 bg-gradient-to-br from-blue-50 to-green-50 relative">
+      <div className="absolute inset-0 bg-white/90"></div>
+      <div className="absolute top-20 right-1/4 w-72 h-72 gradient-primary rounded-full opacity-10 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 left-1/4 w-88 h-88 gradient-accent rounded-full opacity-8 blur-2xl animate-bounce" style={{animationDelay: '1.5s'}}></div>
       <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-8 py-4 gradient-accent rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-              💬 🇮🇳 Let's Connect & Transform!
+              Let's Connect & Transform!
             </div>
-            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
-              Get in <span className="text-gradient-indian">Touch</span> 🤝
+            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight text-gray-900">
+              Get in <span className="text-gradient-logistics">Touch</span>
             </h1>
             <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
-              🚀 <strong>Ready to revolutionize your logistics?</strong> Our team of experts is excited to help 
-              you get started with personalized solutions that will transform your shipping operations! 📦✨🇮🇳
+              <strong>Ready to revolutionize your logistics?</strong> Our team of experts is excited to help 
+              you get started with personalized solutions that will transform your shipping operations.
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold">Send us a Message</h2>
-                  <p className="text-muted-foreground">
+                  <p className="text-gray-600">
                     Fill out the form below and our team will get back to you within 24 hours.
                   </p>
                 </div>
@@ -221,7 +221,7 @@ export default function Contact() {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">Contact Information</h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-gray-600">
                   Reach out to us through any of the channels below. We're always happy to help!
                 </p>
               </div>
@@ -234,8 +234,8 @@ export default function Contact() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold">Phone Support</h3>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
-                      <p className="text-sm text-muted-foreground">Mon-Fri 9AM-7PM IST</p>
+                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-sm text-gray-600">Mon-Fri 9AM-7PM IST</p>
                     </div>
                   </div>
                 </Card>
@@ -247,8 +247,8 @@ export default function Contact() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold">Email Support</h3>
-                      <p className="text-muted-foreground">hello@sheozonic.com</p>
-                      <p className="text-sm text-muted-foreground">Response within 24 hours</p>
+                      <p className="text-gray-600">hello@sheozonic.com</p>
+                      <p className="text-sm text-gray-600">Response within 24 hours</p>
                     </div>
                   </div>
                 </Card>
@@ -260,8 +260,8 @@ export default function Contact() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-semibold">Business Hours</h3>
-                      <p className="text-muted-foreground">Mon-Fri: 9AM-7PM IST</p>
-                      <p className="text-sm text-muted-foreground">Emergency support 24/7</p>
+                      <p className="text-gray-600">Mon-Fri: 9AM-7PM IST</p>
+                      <p className="text-sm text-gray-600">Emergency support 24/7</p>
                     </div>
                   </div>
                 </Card>
@@ -295,7 +295,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Our Offices</h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-600">
               Visit us at our offices across major Indian cities
             </p>
           </div>
@@ -316,17 +316,17 @@ export default function Contact() {
                   
                   <div className="space-y-3">
                     <div className="flex items-start space-x-3">
-                      <MapPin className="w-5 h-5 text-muted-foreground mt-0.5" />
-                      <p className="text-sm text-muted-foreground">{office.address}</p>
+                      <MapPin className="w-5 h-5 text-gray-600 mt-0.5" />
+                      <p className="text-sm text-gray-600">{office.address}</p>
                     </div>
                     
                     <div className="flex items-center space-x-3">
-                      <Phone className="w-5 h-5 text-muted-foreground" />
+                      <Phone className="w-5 h-5 text-gray-600" />
                       <p className="text-sm">{office.phone}</p>
                     </div>
                     
                     <div className="flex items-center space-x-3">
-                      <Mail className="w-5 h-5 text-muted-foreground" />
+                      <Mail className="w-5 h-5 text-gray-600" />
                       <p className="text-sm">{office.email}</p>
                     </div>
                   </div>
@@ -350,7 +350,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Join Our Team</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Be part of India's logistics revolution. We're looking for passionate individuals 
               to help build the future of intelligent logistics.
             </p>
@@ -370,7 +370,7 @@ export default function Contact() {
                         {career.openings} openings
                       </div>
                     </div>
-                    <p className="text-muted-foreground text-sm">{career.description}</p>
+                    <p className="text-gray-600 text-sm">{career.description}</p>
                     <Button 
                       variant="outline" 
                       size="sm" 
@@ -401,7 +401,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Partnership Opportunities</h3>
-                  <p className="text-muted-foreground">
+                  <p className="text-gray-600">
                     Interested in becoming a Sheozonic partner? Let's explore how we can work together.
                   </p>
                 </div>
@@ -435,7 +435,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Press & Media</h3>
-                  <p className="text-muted-foreground">
+                  <p className="text-gray-600">
                     Media inquiries, press releases, and company information for journalists.
                   </p>
                 </div>
@@ -460,7 +460,7 @@ export default function Contact() {
                 </div>
                 
                 <div className="space-y-2">
-                  <p className="text-sm text-muted-foreground">Media Contact:</p>
+                  <p className="text-sm text-gray-600">Media Contact:</p>
                   <p className="font-medium">press@sheozonic.com</p>
                 </div>
                 

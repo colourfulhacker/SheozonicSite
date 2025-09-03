@@ -15,20 +15,20 @@ export default function Technology() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-8 py-4 bg-blue-600 rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-              🤖 🇮🇳 AI Innovation Hub
+              Innovation Hub
             </div>
             <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
-              AI-Powered <span className="text-gradient-innovation">Technology</span> 🎯
+              Smart <span className="text-gradient-innovation">Technology</span>
             </h1>
             <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
-              🚀 <strong>Revolutionary AI transforming India's logistics DNA!</strong> Advanced machine learning and 
-              breakthrough algorithms deliver mind-blowing efficiency and intelligence that's redefining how India ships! 🧠⚡🇮🇳
+              <strong>Revolutionary technology transforming India's logistics DNA!</strong> Advanced machine learning and 
+              breakthrough algorithms deliver mind-blowing efficiency and intelligence that's redefining how India ships.
             </p>
           </div>
         </div>
       </section>
 
-      {/* AI Decision Engine */}
+      {/* Decision Engine */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -37,9 +37,9 @@ export default function Technology() {
                 <Badge variant="secondary" className="bg-primary/10 text-primary">
                   Core Technology
                 </Badge>
-                <h2 className="text-4xl font-bold">Intelligent Decision Engine</h2>
-                <p className="text-lg text-muted-foreground">
-                  Our AI analyzes over 1.2 million data points in real-time to optimize every shipment decision, 
+                <h2 className="text-4xl font-bold text-gray-900">Intelligent Decision Engine</h2>
+                <p className="text-lg text-gray-600">
+                  Our intelligent system analyzes over 1.2 million data points in real-time to optimize every shipment decision, 
                   considering factors like weather, traffic, courier performance, and cost efficiency.
                 </p>
               </div>
@@ -50,8 +50,8 @@ export default function Technology() {
                     <Brain className="w-6 h-6 text-primary" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-lg font-semibold">AI Courier Selection</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="text-lg font-semibold text-gray-900">Smart Courier Selection</h3>
+                    <p className="text-gray-600">
                       Predicts the optimal courier based on cost, speed, reliability, and historical performance 
                       for each specific route and package type.
                     </p>
@@ -63,7 +63,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Predictive ETA Engine</h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-600">
                       Machine learning models forecast accurate delivery times using weather patterns, 
                       traffic data, courier capacity, and historical delivery performance.
                     </p>
@@ -75,7 +75,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Dynamic Pricing Algorithm</h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-600">
                       Real-time rate optimization based on demand patterns, courier capacity, 
                       seasonal trends, and market conditions across India.
                     </p>
@@ -87,7 +87,7 @@ export default function Technology() {
             <Card className="p-8 hover-lift">
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold">AI Processing Status</h3>
+                  <h3 className="text-lg font-semibold">Processing Status</h3>
                   <Badge variant="secondary" className="bg-accent/10 text-accent">
                     Live Analysis
                   </Badge>
@@ -129,15 +129,15 @@ export default function Technology() {
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div>
                       <div className="text-lg font-bold text-primary">1.2M+</div>
-                      <div className="text-xs text-muted-foreground">Data Points</div>
+                      <div className="text-xs text-gray-600">Data Points</div>
                     </div>
                     <div>
                       <div className="text-lg font-bold text-accent">24/7</div>
-                      <div className="text-xs text-muted-foreground">Processing</div>
+                      <div className="text-xs text-gray-600">Processing</div>
                     </div>
                     <div>
                       <div className="text-lg font-bold text-secondary">99.9%</div>
-                      <div className="text-xs text-muted-foreground">Uptime</div>
+                      <div className="text-xs text-gray-600">Uptime</div>
                     </div>
                   </div>
                 </div>
@@ -151,8 +151,8 @@ export default function Technology() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>Advanced AI Capabilities</h2>
-            <p className="text-xl max-w-3xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
+            <h2 className="text-4xl font-bold mb-6 text-foreground">Advanced Capabilities</h2>
+            <p className="text-xl max-w-3xl mx-auto text-foreground/80">
               Cutting-edge features that set Sheozonic apart from traditional logistics platforms
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function Technology() {
               <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Fraud & Risk Detection</h3>
-              <p className="mb-6" style={{color: 'hsl(220, 40%, 35%)'}}>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Fraud & Risk Detection</h3>
+              <p className="mb-6 text-foreground/60">
                 Advanced ML algorithms analyze behavioral patterns to identify suspicious activities 
                 and prevent fraudulent COD orders before they impact your business.
               </p>
@@ -192,7 +192,7 @@ export default function Technology() {
                 <Leaf className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Carbon Footprint Tracker</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-gray-600 mb-6">
                 Comprehensive sustainability reporting for eco-conscious businesses, helping you 
                 meet ESG compliance requirements and reduce environmental impact.
               </p>
@@ -221,7 +221,7 @@ export default function Technology() {
                 <Route className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Dynamic Routing Engine</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-gray-600 mb-6">
                 Intelligent routing that adapts to real-time conditions, optimizing delivery paths 
                 for maximum efficiency across India's diverse geography.
               </p>
@@ -253,7 +253,7 @@ export default function Technology() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Technology Infrastructure</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Built on modern, scalable architecture designed to handle India's logistics complexity
             </p>
           </div>
@@ -267,7 +267,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Machine Learning Models</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       TensorFlow and PyTorch models for demand forecasting, route optimization, and fraud detection
                     </p>
                   </div>
@@ -281,7 +281,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Cloud Infrastructure</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       AWS-based microservices architecture with Redis caching and PostgreSQL databases
                     </p>
                   </div>
@@ -295,7 +295,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Real-time Processing</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       Apache Kafka for event streaming and real-time data processing across the platform
                     </p>
                   </div>
@@ -311,7 +311,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">API Architecture</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       RESTful and GraphQL APIs with comprehensive documentation and SDKs
                     </p>
                   </div>
@@ -325,7 +325,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Analytics Pipeline</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       Apache Spark for big data processing and real-time analytics dashboards
                     </p>
                   </div>
@@ -339,7 +339,7 @@ export default function Technology() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Global CDN</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-600 text-sm">
                       CloudFlare edge network ensuring fast response times across all Indian regions
                     </p>
                   </div>
@@ -355,7 +355,7 @@ export default function Technology() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Developer-Friendly APIs</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Comprehensive API suite with detailed documentation, code examples, and SDKs for popular programming languages
             </p>
           </div>
@@ -365,7 +365,7 @@ export default function Technology() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Enterprise-Grade APIs</h3>
-                  <p className="text-lg text-muted-foreground">
+                  <p className="text-lg text-gray-600">
                     RESTful APIs designed for high-volume enterprise applications with comprehensive error handling and response caching.
                   </p>
                 </div>
@@ -408,23 +408,23 @@ export default function Technology() {
                   </Badge>
                 </div>
                 
-                <div className="bg-foreground text-background rounded-lg p-4 font-mono text-sm overflow-x-auto">
+                <div className="bg-gray-900 text-gray-100 rounded-lg p-4 font-mono text-sm overflow-x-auto border border-gray-700">
                   <div className="text-green-400"># Get instant shipping quotes</div>
-                  <div className="text-blue-300">POST</div>
-                  <div className="text-white"> https://api.sheozonic.com/v1/quotes</div>
+                  <div className="text-blue-400">POST</div>
+                  <div className="text-yellow-300"> https://api.sheozonic.com/v1/quotes</div>
                   <br />
-                  <div className="text-yellow-300">{'{'}</div>
-                  <div className="text-white ml-4">"from_pincode": "110001",</div>
-                  <div className="text-white ml-4">"to_pincode": "400001",</div>
-                  <div className="text-white ml-4">"weight": 1.5,</div>
-                  <div className="text-white ml-4">"dimensions": {"{length: 20, width: 15, height: 10}"},</div>
-                  <div className="text-white ml-4">"package_type": "electronics"</div>
-                  <div className="text-yellow-300">{'}'}</div>
+                  <div className="text-white">{'{'}</div>
+                  <div className="text-gray-300 ml-4">"from_pincode": <span className="text-green-300">"110001"</span>,</div>
+                  <div className="text-gray-300 ml-4">"to_pincode": <span className="text-green-300">"400001"</span>,</div>
+                  <div className="text-gray-300 ml-4">"weight": <span className="text-blue-400">1.5</span>,</div>
+                  <div className="text-gray-300 ml-4">"dimensions": <span className="text-yellow-300">{"{length: 20, width: 15, height: 10}"}</span>,</div>
+                  <div className="text-gray-300 ml-4">"package_type": <span className="text-green-300">"electronics"</span></div>
+                  <div className="text-white">{'}'}</div>
                 </div>
                 
-                <div className="text-sm text-muted-foreground">
+                <div className="text-sm text-gray-600">
                   Response includes real-time quotes from 15+ courier partners with delivery estimates, 
-                  pricing breakdown, and AI recommendations.
+                  pricing breakdown, and intelligent recommendations.
                 </div>
               </div>
             </Card>
@@ -437,7 +437,7 @@ export default function Technology() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Security & Compliance</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Enterprise-grade security measures ensuring data protection and regulatory compliance
             </p>
           </div>
@@ -448,7 +448,7 @@ export default function Technology() {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">ISO 27001</h3>
-              <p className="text-sm text-muted-foreground">Certified information security management system</p>
+              <p className="text-sm text-gray-600">Certified information security management system</p>
             </Card>
             
             <Card className="p-6 text-center hover-lift">
@@ -456,7 +456,7 @@ export default function Technology() {
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">SOC 2 Type II</h3>
-              <p className="text-sm text-muted-foreground">Audited security, availability, and confidentiality controls</p>
+              <p className="text-sm text-gray-600">Audited security, availability, and confidentiality controls</p>
             </Card>
             
             <Card className="p-6 text-center hover-lift">
@@ -464,7 +464,7 @@ export default function Technology() {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">GDPR Ready</h3>
-              <p className="text-sm text-muted-foreground">Data protection and privacy compliance framework</p>
+              <p className="text-sm text-gray-600">Data protection and privacy compliance framework</p>
             </Card>
             
             <Card className="p-6 text-center hover-lift">
@@ -472,7 +472,7 @@ export default function Technology() {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">256-bit SSL</h3>
-              <p className="text-sm text-muted-foreground">End-to-end encryption for all data transmissions</p>
+              <p className="text-sm text-gray-600">End-to-end encryption for all data transmissions</p>
             </Card>
           </div>
         </div>

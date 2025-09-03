@@ -14,54 +14,52 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <div className="inline-flex items-center px-6 py-3 gradient-indian rounded-full text-sm font-bold text-white shadow-lg hover-glow">
+              <div className="inline-flex items-center px-6 py-3 gradient-logistics rounded-full text-sm font-bold text-white shadow-lg hover-glow">
                 <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
-                🚀 Revolutionary Logistics Platform for India
+                Revolutionary Logistics Platform for India
               </div>
               <h1 className="text-5xl lg:text-7xl font-black leading-tight">
-                Smart <span className="text-gradient-indian">Logistics</span> <br/>for <span className="text-gradient-innovation">Modern India</span> 🇮🇳
+                Smart <span className="text-gradient-logistics">Logistics</span> <br/>for <span className="text-gradient-innovation">Modern India</span>
               </h1>
-              <p className="text-xl leading-relaxed font-medium" style={{color: 'hsl(220, 40%, 25%)'}}>
-                🔥 <strong>Revolutionizing logistics across India!</strong> Unify B2B and B2C shipping with AI-powered courier selection, 
+              <p className="text-xl leading-relaxed font-medium text-foreground/80">
+                <strong>Revolutionizing logistics across India!</strong> Unify B2B and B2C shipping with AI-powered courier selection, 
                 lightning-fast quotations, and enterprise-grade APIs. Join the logistics revolution that's transforming 
-                how India ships! ⚡
+                how India ships.
               </p>
             </div>
             
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-orange-300">
-                <div className="text-4xl font-black text-gradient-indian">₹50L+</div>
-                <div className="text-sm font-semibold text-gray-700">💰 Monthly Savings</div>
+                <div className="text-4xl font-black text-gradient-logistics">₹50L+</div>
+                <div className="text-sm font-semibold text-gray-700">Monthly Savings</div>
               </div>
               <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-green-300">
                 <div className="text-4xl font-black text-gradient-innovation">99.8%</div>
-                <div className="text-sm font-semibold text-gray-700">🎯 Delivery Accuracy</div>
+                <div className="text-sm font-semibold text-gray-700">Delivery Accuracy</div>
               </div>
               <div className="text-center card-white p-4 rounded-2xl hover-lift border-2 border-yellow-300">
                 <div className="text-4xl font-black text-gradient-vibrant">10K+</div>
-                <div className="text-sm font-semibold text-gray-700">🏢 Happy Businesses</div>
+                <div className="text-sm font-semibold text-gray-700">Happy Businesses</div>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6">
               <Button 
                 size="lg" 
-                className="btn-primary px-10 py-6 text-xl font-bold transform hover:scale-105 transition-all duration-300 shadow-2xl"
-                style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-xl font-bold transform hover:scale-105 transition-all duration-300 shadow-2xl"
                 data-testid="button-start-trial"
               >
                 <Rocket className="w-6 h-6 mr-3 animate-bounce" />
-                🚀 Start FREE Trial - 30 Days!
+                Start FREE Trial - 30 Days!
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="px-10 py-6 text-xl font-bold border-4 transform hover:scale-105 transition-all duration-300 shadow-xl"
-                style={{borderColor: 'hsl(18, 100%, 55%)', color: 'hsl(18, 100%, 55%)'}}
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-10 py-6 text-xl font-bold border-4 transform hover:scale-105 transition-all duration-300 shadow-xl"
                 data-testid="button-watch-demo"
               >
                 <Play className="w-6 h-6 mr-3" />
-                🎬 Watch Live Demo
+                Watch Live Demo
               </Button>
             </div>
           </div>
@@ -104,13 +102,13 @@ export default function Hero() {
                   <Card className="glassmorphism p-4 hover-lift">
                     <div className="text-center space-y-2">
                       <div className="text-2xl font-bold text-accent">2,847</div>
-                      <div className="text-xs text-muted-foreground">Daily Shipments</div>
+                      <div className="text-xs text-gray-600">Daily Shipments</div>
                     </div>
                   </Card>
                   <Card className="glassmorphism p-4 hover-lift">
                     <div className="text-center space-y-2">
                       <div className="text-2xl font-bold text-primary">98.5%</div>
-                      <div className="text-xs text-muted-foreground">Success Rate</div>
+                      <div className="text-xs text-gray-600">Success Rate</div>
                     </div>
                   </Card>
                 </div>

@@ -13,6 +13,14 @@ import Technology from "@/pages/Technology";
 import Pricing from "@/pages/Pricing";
 import Investors from "@/pages/Investors";
 import Contact from "@/pages/Contact";
+import B2BLogistics from "@/pages/B2BLogistics";
+import B2CShipping from "@/pages/B2CShipping";
+import EnterpriseAPIs from "@/pages/EnterpriseAPIs";
+import WhiteLabel from "@/pages/WhiteLabel";
+import International from "@/pages/International";
+import Privacy from "@/pages/Privacy";
+import Terms from "@/pages/Terms";
+import Cookies from "@/pages/Cookies";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -29,6 +37,14 @@ function Router() {
           <Route path="/pricing" component={Pricing} />
           <Route path="/investors" component={Investors} />
           <Route path="/contact" component={Contact} />
+          <Route path="/b2b-logistics" component={B2BLogistics} />
+          <Route path="/b2c-shipping" component={B2CShipping} />
+          <Route path="/enterprise-apis" component={EnterpriseAPIs} />
+          <Route path="/white-label" component={WhiteLabel} />
+          <Route path="/international" component={International} />
+          <Route path="/privacy" component={Privacy} />
+          <Route path="/terms" component={Terms} />
+          <Route path="/cookies" component={Cookies} />
           <Route component={NotFound} />
         </Switch>
       </main>

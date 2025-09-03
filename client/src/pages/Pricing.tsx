@@ -126,19 +126,19 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-8 py-4 gradient-accent rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-              💰 🇮🇳 India-First Pricing
+              India-First Pricing
             </div>
             <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
-              Transparent <span className="text-gradient-indian">Pricing</span> 💎
+              Transparent <span className="text-gradient-logistics">Pricing</span>
             </h1>
             <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700 mb-8">
-              🔥 <strong>Revolutionary pricing designed for Indian businesses!</strong> Choose your perfect plan with 
-              AI-powered features, zero hidden costs, and pricing that makes sense for India! 🚀💪🇮🇳
+              <strong>Revolutionary pricing designed for Indian businesses!</strong> Choose your perfect plan with 
+              AI-powered features, zero hidden costs, and pricing that makes sense for India.
             </p>
             
             {/* Billing Toggle */}
             <div className="flex items-center justify-center space-x-4">
-              <Label htmlFor="billing-toggle" className={`${!isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
+              <Label htmlFor="billing-toggle" className={`${!isYearly ? 'text-foreground' : 'text-gray-600'}`}>
                 Monthly
               </Label>
               <Switch
@@ -147,7 +147,7 @@ export default function Pricing() {
                 onCheckedChange={setIsYearly}
                 data-testid="switch-billing"
               />
-              <Label htmlFor="billing-toggle" className={`${isYearly ? 'text-foreground' : 'text-muted-foreground'}`}>
+              <Label htmlFor="billing-toggle" className={`${isYearly ? 'text-foreground' : 'text-gray-600'}`}>
                 Yearly
               </Label>
               {isYearly && (
@@ -187,7 +187,7 @@ export default function Pricing() {
                     </div>
                     <div className="space-y-2">
                       <h3 className="text-2xl font-bold">{plan.name}</h3>
-                      <p className="text-muted-foreground">{plan.description}</p>
+                      <p className="text-gray-600">{plan.description}</p>
                     </div>
                   </div>
                   
@@ -196,7 +196,7 @@ export default function Pricing() {
                       {typeof plan.price.monthly === 'number' ? (
                         <>
                           ₹{isYearly ? plan.price.yearly.toLocaleString() : plan.price.monthly.toLocaleString()}
-                          <span className="text-lg text-muted-foreground font-normal">
+                          <span className="text-lg text-gray-600 font-normal">
                             /{isYearly ? 'year' : 'month'}
                           </span>
                         </>
@@ -205,7 +205,7 @@ export default function Pricing() {
                       )}
                     </div>
                     {typeof plan.price.monthly === 'number' && typeof plan.price.yearly === 'number' && (
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-gray-600">
                         {isYearly ? 
                           `₹${Math.round(plan.price.yearly / 12).toLocaleString()}/month billed annually` :
                           `₹${(plan.price.monthly * 12).toLocaleString()}/year if billed annually`
@@ -251,7 +251,7 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Add-on Services</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Enhance your logistics capabilities with our specialized add-on services
             </p>
           </div>
@@ -262,7 +262,7 @@ export default function Pricing() {
                 <div className="flex items-center justify-between">
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">{addon.name}</h3>
-                    <p className="text-sm text-muted-foreground">{addon.description}</p>
+                    <p className="text-sm text-gray-600">{addon.description}</p>
                   </div>
                   <div className="text-right">
                     <div className="text-xl font-bold text-primary">{addon.price}</div>
@@ -294,7 +294,7 @@ export default function Pricing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Volume Discounts</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               The more you ship, the more you save. Automatic discounts applied based on monthly volume.
             </p>
           </div>
@@ -302,28 +302,28 @@ export default function Pricing() {
           <div className="grid lg:grid-cols-4 gap-8">
             <Card className="p-6 text-center hover-lift">
               <div className="text-3xl font-bold text-primary mb-2">0-100</div>
-              <div className="text-sm text-muted-foreground mb-4">Shipments/month</div>
+              <div className="text-sm text-gray-600 mb-4">Shipments/month</div>
               <div className="text-2xl font-bold mb-2">Standard Rates</div>
               <div className="text-sm text-accent">Perfect for starters</div>
             </Card>
             
             <Card className="p-6 text-center hover-lift border-primary">
               <div className="text-3xl font-bold text-primary mb-2">101-1,000</div>
-              <div className="text-sm text-muted-foreground mb-4">Shipments/month</div>
+              <div className="text-sm text-gray-600 mb-4">Shipments/month</div>
               <div className="text-2xl font-bold mb-2">10% Discount</div>
               <div className="text-sm text-accent">Growing businesses</div>
             </Card>
             
             <Card className="p-6 text-center hover-lift">
               <div className="text-3xl font-bold text-primary mb-2">1,001-10,000</div>
-              <div className="text-sm text-muted-foreground mb-4">Shipments/month</div>
+              <div className="text-sm text-gray-600 mb-4">Shipments/month</div>
               <div className="text-2xl font-bold mb-2">20% Discount</div>
               <div className="text-sm text-accent">Scale operations</div>
             </Card>
             
             <Card className="p-6 text-center hover-lift border-accent">
               <div className="text-3xl font-bold text-accent mb-2">10,000+</div>
-              <div className="text-sm text-muted-foreground mb-4">Shipments/month</div>
+              <div className="text-sm text-gray-600 mb-4">Shipments/month</div>
               <div className="text-2xl font-bold mb-2">Custom Pricing</div>
               <div className="text-sm text-accent">Enterprise rates</div>
             </Card>
@@ -336,7 +336,7 @@ export default function Pricing() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Frequently Asked Questions</h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-600">
               Common questions about our pricing and plans
             </p>
           </div>
@@ -344,7 +344,7 @@ export default function Pricing() {
           <div className="space-y-8">
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3">Are there any setup fees or hidden charges?</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 No setup fees, no hidden charges. Our pricing is completely transparent. You only pay 
                 the monthly subscription and actual shipping costs charged by courier partners.
               </p>
@@ -352,7 +352,7 @@ export default function Pricing() {
             
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3">Can I change my plan anytime?</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, 
                 and we'll prorate the billing accordingly.
               </p>
@@ -360,7 +360,7 @@ export default function Pricing() {
             
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3">What payment methods do you accept?</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 We accept all major credit cards, debit cards, UPI, net banking, and digital wallets. 
                 Enterprise customers can also opt for invoice-based billing.
               </p>
@@ -368,7 +368,7 @@ export default function Pricing() {
             
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3">Is there a free trial available?</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 Yes, we offer a 30-day free trial for all plans. No credit card required to start. 
                 You get full access to all features during the trial period.
               </p>
@@ -376,7 +376,7 @@ export default function Pricing() {
             
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3">What happens if I exceed my plan limits?</h3>
-              <p className="text-muted-foreground">
+              <p className="text-gray-600">
                 We'll notify you when you're approaching your limits. You can either upgrade your plan 
                 or pay overage charges at competitive rates. No service interruption.
               </p>

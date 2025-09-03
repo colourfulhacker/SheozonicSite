@@ -33,20 +33,20 @@ export default function Home() {
       <Hero />
       
       {/* Solutions Section */}
-      <section className="py-20 gradient-warm opacity-95 relative">
+      <section className="py-20 gradient-professional opacity-95 relative">
         <div className="absolute inset-0 bg-white/85"></div>
         <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 gradient-accent rounded-full text-white font-bold mb-6 shadow-lg">
-              🔍 Problem Solving Excellence
+              Problem Solving Excellence
             </div>
-            <h2 className="text-5xl lg:text-6xl font-black mb-6">
-              🎆 Complete <span className="text-gradient-indian">Logistics Solutions</span> 🚚
+            <h2 className="text-5xl lg:text-6xl font-black mb-6 text-gray-900">
+              Complete <span className="text-gradient-logistics">Logistics Solutions</span>
             </h2>
-            <p className="text-2xl font-semibold max-w-4xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
-              🔥 <strong>Solving India's biggest logistics challenges!</strong> From individual shipments to enterprise-scale operations, 
-              Sheozonic revolutionizes every aspect of modern shipping with AI-powered intelligence! 🤖✨
+            <p className="text-2xl font-semibold max-w-4xl mx-auto text-gray-700">
+              <strong>Solving India's biggest logistics challenges!</strong> From individual shipments to enterprise-scale operations, 
+              Sheozonic revolutionizes every aspect of modern shipping with intelligent automation.
             </p>
           </div>
           
@@ -213,29 +213,29 @@ export default function Home() {
       <PlatformExcellence />
 
       {/* Technology Section */}
-      <section className="py-20 gradient-innovation relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-green-900/20"></div>
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-green-50 relative">
+        <div className="absolute inset-0 bg-white/80"></div>
         <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center px-6 py-3 bg-blue-600 rounded-full text-white font-bold mb-6 shadow-lg animate-pulse">
-              🤖 AI-Powered Innovation
+            <div className="inline-flex items-center px-6 py-3 bg-primary rounded-full text-white font-bold mb-6 shadow-lg animate-pulse">
+              Smart Technology
             </div>
-            <h2 className="text-5xl lg:text-6xl font-black mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>
-              🎆 Intelligent <span className="text-gradient-indian">Technology</span> 💻
+            <h2 className="text-5xl lg:text-6xl font-black mb-6 text-gray-900">
+              Intelligent <span className="text-gradient-logistics">Technology</span>
             </h2>
-            <p className="text-2xl font-semibold max-w-4xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
-              🚀 <strong>Revolutionary AI algorithms transforming Indian logistics!</strong> Advanced machine learning 
-              and smart technology drive unprecedented optimization for businesses across India! 🇮🇳✨
+            <p className="text-2xl font-semibold max-w-4xl mx-auto text-gray-700">
+              <strong>Revolutionary algorithms transforming Indian logistics!</strong> Advanced machine learning 
+              and smart technology drive unprecedented optimization for businesses across India.
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h3 className="text-3xl font-bold" style={{color: 'hsl(220, 40%, 15%)'}}>Intelligent Decision Engine</h3>
-                <p className="text-lg" style={{color: 'hsl(220, 40%, 35%)'}}>
-                  Our AI analyzes thousands of data points in real-time to optimize every shipment decision.
+                <h3 className="text-3xl font-bold text-gray-900">Intelligent Decision Engine</h3>
+                <p className="text-lg text-gray-600">
+                  Our intelligent system analyzes thousands of data points in real-time to optimize every shipment decision.
                 </p>
               </div>
               
@@ -245,8 +245,8 @@ export default function Home() {
                     <Brain className="w-6 h-6 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Smart Courier Selection</h4>
-                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Intelligent algorithms predict the optimal courier based on cost, speed, and reliability for each specific route.</p>
+                    <h4 className="text-lg font-semibold text-gray-900">Smart Courier Selection</h4>
+                    <p className="text-gray-600">Intelligent algorithms predict the optimal courier based on cost, speed, and reliability for each specific route.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -254,8 +254,8 @@ export default function Home() {
                     <Clock className="w-6 h-6 text-accent" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Predictive ETA Engine</h4>
-                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Machine learning models forecast accurate delivery times using weather, traffic, and historical data.</p>
+                    <h4 className="text-lg font-semibold text-gray-900">Predictive ETA Engine</h4>
+                    <p className="text-gray-600">Machine learning models forecast accurate delivery times using weather, traffic, and historical data.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -263,8 +263,8 @@ export default function Home() {
                     <TrendingUp className="w-6 h-6 text-secondary" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Dynamic Pricing</h4>
-                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Real-time rate optimization based on demand patterns, courier capacity, and market conditions.</p>
+                    <h4 className="text-lg font-semibold text-gray-900">Dynamic Pricing</h4>
+                    <p className="text-gray-600">Real-time rate optimization based on demand patterns, courier capacity, and market conditions.</p>
                   </div>
                 </div>
               </div>
@@ -277,7 +277,7 @@ export default function Home() {
                 className="w-full h-64 object-cover rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent rounded-2xl"></div>
-              <Card className="absolute bottom-4 left-4 right-4 glassmorphism p-6 hover-lift">
+              <Card className="absolute bottom-4 left-4 right-4 glassmorphism-dark p-6 hover-lift">
                 <div className="space-y-6">
                   <div className="flex items-center justify-between">
                     <h4 className="text-lg font-semibold text-white">Live Processing</h4>
@@ -333,20 +333,20 @@ export default function Home() {
               <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Smart Risk Detection</h3>
-              <p className="mb-6" style={{color: 'hsl(220, 40%, 35%)'}}>Advanced algorithms identify suspicious patterns and prevent fraudulent COD orders, protecting your business revenue.</p>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Smart Risk Detection</h3>
+              <p className="mb-6 text-foreground/70">Advanced algorithms identify suspicious patterns and prevent fraudulent COD orders, protecting your business revenue.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Real-time risk scoring</span>
+                  <span className="text-foreground/70">Real-time risk scoring</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Behavioral pattern analysis</span>
+                  <span className="text-foreground/70">Behavioral pattern analysis</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Automated blocking system</span>
+                  <span className="text-foreground/70">Automated blocking system</span>
                 </div>
               </div>
             </Card>
@@ -355,20 +355,20 @@ export default function Home() {
               <div className="w-16 h-16 gradient-accent rounded-2xl flex items-center justify-center mb-6">
                 <Leaf className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Eco-Friendly Tracking</h3>
-              <p className="text-muted-foreground mb-6">Comprehensive sustainability reporting for environmentally conscious businesses and ESG compliance in India.</p>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Eco-Friendly Tracking</h3>
+              <p className="text-foreground/70 mb-6">Comprehensive sustainability reporting for environmentally conscious businesses and ESG compliance in India.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>CO2 emission tracking</span>
+                  <span className="text-foreground/70">CO2 emission tracking</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Green courier recommendations</span>
+                  <span className="text-foreground/70">Green courier recommendations</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Sustainability reports</span>
+                  <span className="text-foreground/70">Sustainability reports</span>
                 </div>
               </div>
             </Card>
@@ -377,20 +377,20 @@ export default function Home() {
               <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
                 <Route className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Smart Routing Engine</h3>
-              <p className="text-muted-foreground mb-6">Intelligent routing system that adapts to Indian traffic patterns and weather conditions for optimal delivery performance.</p>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Smart Routing Engine</h3>
+              <p className="text-foreground/70 mb-6">Intelligent routing system that adapts to Indian traffic patterns and weather conditions for optimal delivery performance.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Multi-factor optimization</span>
+                  <span className="text-foreground/70">Multi-factor optimization</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Real-time rerouting</span>
+                  <span className="text-foreground/70">Real-time rerouting</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
-                  <span>Performance analytics</span>
+                  <span className="text-foreground/70">Performance analytics</span>
                 </div>
               </div>
             </Card>
@@ -407,21 +407,21 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 gradient-indian relative overflow-hidden">
+      <section className="py-20 gradient-professional relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500/90 to-green-500/90"></div>
         <div className="absolute top-10 left-20 w-40 h-40 bg-yellow-400 rounded-full opacity-20 blur-2xl animate-bounce"></div>
         <div className="absolute bottom-10 right-20 w-60 h-60 bg-orange-400 rounded-full opacity-25 blur-3xl animate-pulse"></div>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="space-y-10">
             <div className="inline-flex items-center px-8 py-4 bg-white/20 rounded-full text-white font-bold text-lg mb-6 shadow-xl">
-              🚀 Join the Logistics Revolution!
+              Join the Logistics Revolution!
             </div>
             <h2 className="text-5xl lg:text-7xl font-black text-white leading-tight">
-              Ready to Transform 🔄 <br/>Your <span className="text-yellow-300">Logistics</span>? 🚚✨
+              Ready to Transform <br/>Your <span className="text-yellow-300">Logistics</span>?
             </h2>
             <p className="text-2xl text-white font-semibold max-w-4xl mx-auto">
-              🎆 <strong>Join 10,000+ businesses revolutionizing their shipping!</strong> Experience the power of 
-              AI-driven logistics optimization that's transforming India's supply chain! 🇮🇳💪
+              <strong>Join 10,000+ businesses revolutionizing their shipping!</strong> Experience the power of 
+              intelligent logistics optimization that's transforming India's supply chain.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">

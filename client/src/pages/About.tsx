@@ -15,15 +15,15 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-8 py-4 gradient-vibrant rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-              🇮🇳 🚀 Indian Innovation Story
+              Indian Innovation Story
             </div>
             <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
-              About <span className="text-gradient-indian">Sheozonic</span> 🎆
+              About <span className="text-gradient-logistics">Sheozonic</span>
             </h1>
             <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
-              🔥 <strong>Building India's most revolutionary logistics platform!</strong> We're creating the next-generation 
+              <strong>Building India's most revolutionary logistics platform!</strong> We're creating the next-generation 
               aggregator that unifies B2B and B2C shipping with intelligent AI technology, solving problems that 
-              traditional players can't even imagine! 🤖✨🇮🇳
+              traditional players can't even imagine.
             </p>
           </div>
           
@@ -35,7 +35,7 @@ export default function About() {
                   Our Mission
                 </div>
                 <h2 className="text-3xl font-bold">Transforming Indian Logistics</h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-gray-600">
                   We're on a mission to become India's universal logistics layer where businesses, corporates, and individuals 
                   can access instant quotations, transparent pricing, and intelligent courier selection with unprecedented ease.
                 </p>
@@ -45,19 +45,19 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6">
               <Card className="p-6 text-center hover-lift">
                 <div className="text-3xl font-bold text-primary mb-2">2023</div>
-                <div className="text-sm text-muted-foreground">Founded</div>
+                <div className="text-sm text-gray-600">Founded</div>
               </Card>
               <Card className="p-6 text-center hover-lift">
                 <div className="text-3xl font-bold text-accent mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Team Members</div>
+                <div className="text-sm text-gray-600">Team Members</div>
               </Card>
               <Card className="p-6 text-center hover-lift">
                 <div className="text-3xl font-bold text-secondary mb-2">₹25Cr</div>
-                <div className="text-sm text-muted-foreground">Funding Raised</div>
+                <div className="text-sm text-gray-600">Funding Raised</div>
               </Card>
               <Card className="p-6 text-center hover-lift">
                 <div className="text-3xl font-bold text-primary mb-2">10K+</div>
-                <div className="text-sm text-muted-foreground">Happy Customers</div>
+                <div className="text-sm text-gray-600">Happy Customers</div>
               </Card>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Built for India's Future</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Understanding the unique challenges and opportunities in India's rapidly growing logistics ecosystem.
             </p>
           </div>
@@ -153,7 +153,7 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Tier 2/3 City Focus</h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-600">
                       Specialized infrastructure to serve India's emerging markets with reliable last-mile delivery.
                     </p>
                   </div>
@@ -165,7 +165,7 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Regional Language Support</h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-600">
                       Multi-language platform supporting Hindi, Tamil, Telugu, Bengali, and other regional languages.
                     </p>
                   </div>
@@ -177,7 +177,7 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Made in India</h3>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-600">
                       Proudly developed in India, supporting local businesses and contributing to the Digital India initiative.
                     </p>
                   </div>
@@ -186,22 +186,22 @@ export default function About() {
             </div>
             
             <div className="bg-muted/30 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center">India Logistics Market</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">India Logistics Market</h3>
               <div className="space-y-6">
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Market Size (2024)</span>
+                  <span className="text-gray-600">Market Size (2024)</span>
                   <span className="text-2xl font-bold text-primary">₹2.5 Trillion</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Growth Rate (CAGR)</span>
+                  <span className="text-gray-600">Growth Rate (CAGR)</span>
                   <span className="text-2xl font-bold text-accent">35%</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">E-commerce Volume</span>
+                  <span className="text-gray-600">E-commerce Volume</span>
                   <span className="text-2xl font-bold text-secondary">8B+ Packages</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Digital Adoption</span>
+                  <span className="text-gray-600">Digital Adoption</span>
                   <span className="text-2xl font-bold text-primary">85%</span>
                 </div>
               </div>
@@ -214,8 +214,8 @@ export default function About() {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>Leadership Team</h2>
-            <p className="text-xl" style={{color: 'hsl(220, 40%, 25%)'}}>
+                          <h2 className="text-4xl font-bold mb-6 text-foreground">Leadership Team</h2>
+            <p className="text-xl text-foreground/80">
               Experienced leaders from top logistics, technology, and finance companies
             </p>
           </div>
@@ -226,9 +226,9 @@ export default function About() {
               <div className="w-20 h-20 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-white">CEO</span>
               </div>
-              <h3 className="text-xl font-bold mb-2" style={{color: 'hsl(220, 40%, 15%)'}}>Chief Executive Officer</h3>
-              <p className="mb-4" style={{color: 'hsl(220, 40%, 30%)'}}>15+ years in logistics and technology</p>
-              <p className="text-sm" style={{color: 'hsl(220, 40%, 35%)'}}>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Chief Executive Officer</h3>
+              <p className="mb-4 text-foreground/70">15+ years in logistics and technology</p>
+              <p className="text-sm text-foreground/60">
                 Former senior executive at leading logistics companies, IIT graduate with MBA from IIM.
               </p>
             </Card>
@@ -237,9 +237,9 @@ export default function About() {
               <div className="w-20 h-20 bg-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-white">CTO</span>
               </div>
-              <h3 className="text-xl font-bold mb-2" style={{color: 'hsl(220, 40%, 15%)'}}>Chief Technology Officer</h3>
-              <p className="mb-4" style={{color: 'hsl(220, 40%, 30%)'}}>12+ years in AI and machine learning</p>
-              <p className="text-sm" style={{color: 'hsl(220, 40%, 35%)'}}>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Chief Technology Officer</h3>
+              <p className="mb-4 text-foreground/70">12+ years in AI and machine learning</p>
+              <p className="text-sm text-foreground/60">
                 Former tech lead at major Indian unicorns, specialist in logistics optimization algorithms.
               </p>
             </Card>
@@ -248,9 +248,9 @@ export default function About() {
               <div className="w-20 h-20 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-white">CFO</span>
               </div>
-              <h3 className="text-xl font-bold mb-2" style={{color: 'hsl(220, 40%, 15%)'}}>Chief Financial Officer</h3>
-              <p className="mb-4" style={{color: 'hsl(220, 40%, 30%)'}}>10+ years in finance and operations</p>
-              <p className="text-sm" style={{color: 'hsl(220, 40%, 35%)'}}>
+              <h3 className="text-xl font-bold mb-2 text-foreground">Chief Financial Officer</h3>
+              <p className="mb-4 text-foreground/70">10+ years in finance and operations</p>
+              <p className="text-sm text-foreground/60">
                 Former investment banker and startup CFO, expert in scaling high-growth businesses.
               </p>
             </Card>
@@ -262,8 +262,8 @@ export default function About() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>Our Journey</h2>
-            <p className="text-xl" style={{color: 'hsl(220, 40%, 25%)'}}>
+            <h2 className="text-4xl font-bold mb-6 text-foreground">Our Journey</h2>
+            <p className="text-xl text-foreground/80">
               Key milestones in building India's next-generation logistics platform
             </p>
           </div>
@@ -277,8 +277,8 @@ export default function About() {
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-primary font-medium">Q1 2023</div>
-                  <h3 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Company Founded</h3>
-                  <p style={{color: 'hsl(220, 40%, 35%)'}}>Sheozonic Technologies incorporated with seed funding from angel investors.</p>
+                  <h3 className="text-lg font-semibold text-foreground">Company Founded</h3>
+                  <p className="text-foreground/60">Sheozonic Technologies incorporated with seed funding from angel investors.</p>
                 </div>
               </div>
               
@@ -288,8 +288,8 @@ export default function About() {
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-accent font-medium">Q3 2023</div>
-                  <h3 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>MVP Launch</h3>
-                  <p style={{color: 'hsl(220, 40%, 35%)'}}>First version of the platform launched with basic courier aggregation features.</p>
+                  <h3 className="text-lg font-semibold text-foreground">MVP Launch</h3>
+                  <p className="text-foreground/60">First version of the platform launched with basic courier aggregation features.</p>
                 </div>
               </div>
               
@@ -299,8 +299,8 @@ export default function About() {
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-secondary font-medium">Q1 2024</div>
-                  <h3 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Series A Funding</h3>
-                  <p style={{color: 'hsl(220, 40%, 35%)'}}>Raised ₹25 crores from leading VCs to accelerate product development and market expansion.</p>
+                  <h3 className="text-lg font-semibold text-foreground">Series A Funding</h3>
+                  <p className="text-foreground/60">Raised ₹25 crores from leading VCs to accelerate product development and market expansion.</p>
                 </div>
               </div>
               
@@ -310,8 +310,8 @@ export default function About() {
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-primary font-medium">Q3 2024</div>
-                  <h3 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>AI Platform Launch</h3>
-                  <p style={{color: 'hsl(220, 40%, 35%)'}}>Launched AI-powered courier selection and fraud detection systems.</p>
+                  <h3 className="text-lg font-semibold text-foreground">AI Platform Launch</h3>
+                  <p className="text-foreground/60">Launched AI-powered courier selection and fraud detection systems.</p>
                 </div>
               </div>
               
@@ -321,8 +321,8 @@ export default function About() {
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-accent font-medium">Q1 2025</div>
-                  <h3 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Enterprise & API Launch</h3>
-                  <p style={{color: 'hsl(220, 40%, 35%)'}}>Full enterprise platform with APIs, white-label solutions, and franchise model.</p>
+                  <h3 className="text-lg font-semibold text-foreground">Enterprise & API Launch</h3>
+                  <p className="text-foreground/60">Full enterprise platform with APIs, white-label solutions, and franchise model.</p>
                 </div>
               </div>
             </div>

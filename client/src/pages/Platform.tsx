@@ -11,14 +11,14 @@ export default function Platform() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <div className="inline-flex items-center px-8 py-4 bg-blue-600 rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-                🚀 🇮🇳 Platform Excellence Hub
+                Platform Excellence Hub
               </div>
-              <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight text-white">
-                Platform <span className="text-gradient-indian">Excellence</span> 🎆
+              <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight text-gray-900">
+                Platform <span className="text-gradient-logistics">Excellence</span>
               </h1>
-              <p className="text-2xl font-bold max-w-5xl mx-auto text-white">
-                🔥 <strong>Transforming logistics challenges into competitive advantages!</strong> Experience how 
-                Sheozonic revolutionizes every aspect of modern shipping with breakthrough innovation! 🤖⚡🇮🇳
+              <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
+                <strong>Transforming logistics challenges into competitive advantages!</strong> Experience how 
+                Sheozonic revolutionizes every aspect of modern shipping with breakthrough innovation.
               </p>
             </div>
           </div>

@@ -1,14 +1,14 @@
-import { AlertTriangle, Lightbulb, Calculator, Shield, Trophy, Medal, Rocket } from "lucide-react";
+import { AlertTriangle, Lightbulb, Calculator, Shield, Trophy, Medal, Rocket, Users, DollarSign } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const challenges = [
   {
-    icon: AlertTriangle,
+    icon: Users,
     challenge: "Limited B2C support in existing platforms restricts individual sellers and SMEs.",
     solution: "Unified B2B+B2C platform serving enterprises, SMEs, and individual shippers equally.",
   },
   {
-    icon: AlertTriangle,
+    icon: DollarSign,
     challenge: "Hidden courier costs and unclear pricing structures affect budgeting.",
     solution: "Instant AI-powered cost breakdown with transparent pricing and no hidden fees.",
   },
@@ -57,11 +57,11 @@ export default function PlatformExcellence() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>
-            <span style={{color: 'hsl(18, 100%, 55%)'}}>Platform</span> <span className="text-gradient-indian">Excellence</span>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+            <span className="text-primary">Platform</span> <span className="text-gradient-logistics">Excellence</span>
           </h2>
-          <p className="text-xl max-w-3xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
-            💪 <strong>How Sheozonic transforms logistics challenges into competitive advantages</strong> for modern businesses.
+          <p className="text-xl max-w-3xl mx-auto text-gray-700">
+            <strong>How Sheozonic transforms logistics challenges into competitive advantages</strong> for modern businesses.
           </p>
         </div>
         
@@ -73,14 +73,14 @@ export default function PlatformExcellence() {
                 <item.icon className="w-8 h-8 text-destructive" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-destructive">Industry Challenge</h3>
-              <p className="text-muted-foreground mb-6">{item.challenge}</p>
+              <p className="text-gray-600 mb-6">{item.challenge}</p>
               
               <div className="border-t border-border pt-6">
                 <div className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-4">
                   <Lightbulb className="w-8 h-8 text-accent" />
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-accent">Sheozonic Solution</h4>
-                <p className="text-muted-foreground">{item.solution}</p>
+                <p className="text-gray-600">{item.solution}</p>
               </div>
             </Card>
           ))}
@@ -89,8 +89,8 @@ export default function PlatformExcellence() {
         {/* Competitive Advantage */}
         <div className="bg-white/60 rounded-3xl p-8 lg:p-12 border-2 border-orange-200">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Competitive Advantages</h3>
-            <p className="text-xl" style={{color: 'hsl(220, 40%, 25%)'}}>Why leading enterprises choose Sheozonic over traditional platforms 🏆</p>
+            <h3 className="text-3xl font-bold mb-4 text-gray-900">Competitive Advantages</h3>
+            <p className="text-xl text-gray-700">Why leading enterprises choose Sheozonic over traditional platforms</p>
           </div>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -103,10 +103,10 @@ export default function PlatformExcellence() {
                 }`}>
                   <advantage.icon className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-xl font-bold" style={{color: 'hsl(220, 40%, 15%)'}}>{advantage.title}</h4>
-                <div className="space-y-2" style={{color: 'hsl(220, 40%, 35%)'}}>
+                <h4 className="text-xl font-bold text-gray-900">{advantage.title}</h4>
+                <div className="space-y-2 text-gray-600">
                   {advantage.features.map((feature, featureIndex) => (
-                    <p key={featureIndex}><span style={{color: 'hsl(134, 85%, 45%)', fontWeight: 'bold'}}>✓</span> {feature}</p>
+                    <p key={featureIndex}><span className="text-accent font-bold">✓</span> {feature}</p>
                   ))}
                 </div>
               </div>

@@ -15,14 +15,14 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-8 py-4 gradient-vibrant rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
-              🚀 💡 Revolutionary Problem Solving
+              Revolutionary Problem Solving
             </div>
             <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
-              Complete <span className="text-gradient-indian">Logistics Solutions</span> 📦✨
+              Complete <span className="text-gradient-logistics">Logistics Solutions</span>
             </h1>
             <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
-              🔥 <strong>Solving problems others can't even see!</strong> From tiny shipments to massive enterprise operations, 
-              Sheozonic revolutionizes every aspect of shipping with breakthrough AI technology and mind-blowing integrations! 🤖🇮🇳
+              <strong>Solving problems others can't even see!</strong> From tiny shipments to massive enterprise operations, 
+              Sheozonic revolutionizes every aspect of shipping with breakthrough AI technology and mind-blowing integrations.
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Solutions() {
                   B2B Solutions
                 </div>
                 <h2 className="text-4xl font-bold">Enterprise & Corporate Logistics</h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-gray-600">
                   Streamline bulk shipments with integrated ERP systems, dedicated dashboards, and advanced analytics. 
                   Perfect for manufacturers, wholesalers, and large retailers.
                 </p>
@@ -52,7 +52,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Bulk Order Processing</h3>
-                    <p className="text-muted-foreground">Upload thousands of orders with CSV/Excel integration, automated validation, and batch processing capabilities.</p>
+                    <p className="text-gray-600">Upload thousands of orders with CSV/Excel integration, automated validation, and batch processing capabilities.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -61,7 +61,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">International Logistics</h3>
-                    <p className="text-muted-foreground">Cross-border shipping with customs clearance, documentation support, and compliance management.</p>
+                    <p className="text-gray-600">Cross-border shipping with customs clearance, documentation support, and compliance management.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -70,7 +70,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Performance Analytics</h3>
-                    <p className="text-muted-foreground">Real-time SLA monitoring, courier performance insights, and predictive analytics dashboards.</p>
+                    <p className="text-gray-600">Real-time SLA monitoring, courier performance insights, and predictive analytics dashboards.</p>
                   </div>
                 </div>
               </div>
@@ -112,15 +112,15 @@ export default function Solutions() {
                 <h3 className="text-xl font-bold mb-4">Volume Discounts</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">1,000+ shipments/month</span>
+                    <span className="text-gray-600">1,000+ shipments/month</span>
                     <span className="font-semibold text-primary">15% discount</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">10,000+ shipments/month</span>
+                    <span className="text-gray-600">10,000+ shipments/month</span>
                     <span className="font-semibold text-primary">25% discount</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">50,000+ shipments/month</span>
+                    <span className="text-gray-600">50,000+ shipments/month</span>
                     <span className="font-semibold text-primary">Custom pricing</span>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ export default function Solutions() {
             <div className="space-y-6">
               <Card className="p-6 hover-lift">
                 <h3 className="text-xl font-bold mb-4">Instant Quotation Engine</h3>
-                <p className="text-muted-foreground mb-4">
+                <p className="text-gray-600 mb-4">
                   Get real-time pricing from 15+ courier partners in under 3 seconds with our AI-powered comparison engine.
                 </p>
                 <div className="bg-muted/50 rounded-lg p-4">
@@ -186,7 +186,7 @@ export default function Solutions() {
                   B2C Solutions
                 </div>
                 <h2 className="text-4xl font-bold">Individual & SME Shipping</h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-gray-600">
                   Quick shipment booking with real-time cost comparison and branded tracking for your customers. 
                   Perfect for individual sellers, small businesses, and online stores.
                 </p>
@@ -199,7 +199,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Instant Quotations</h3>
-                    <p className="text-muted-foreground">Get real-time pricing from multiple couriers in seconds with transparent cost breakdown.</p>
+                    <p className="text-gray-600">Get real-time pricing from multiple couriers in seconds with transparent cost breakdown.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -208,7 +208,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Branded Tracking</h3>
-                    <p className="text-muted-foreground">Custom tracking pages with your brand colors, logo, and personalized messaging.</p>
+                    <p className="text-gray-600">Custom tracking pages with your brand colors, logo, and personalized messaging.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -217,7 +217,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Flexible COD</h3>
-                    <p className="text-muted-foreground">Smart COD management with automated reconciliation and fraud protection.</p>
+                    <p className="text-gray-600">Smart COD management with automated reconciliation and fraud protection.</p>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Enterprise API Solutions</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Integrate Sheozonic's logistics intelligence directly into your platforms with our comprehensive API suite.
             </p>
           </div>
@@ -279,19 +279,19 @@ export default function Solutions() {
               <div className="space-y-6">
                 <div className="bg-muted rounded-lg p-4">
                   <h4 className="font-semibold mb-2">E-commerce Checkout</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-gray-600">
                     Display real-time shipping costs during checkout with automatic courier selection.
                   </p>
                 </div>
                 <div className="bg-muted rounded-lg p-4">
                   <h4 className="font-semibold mb-2">ERP Integration</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-gray-600">
                     Automate order fulfillment directly from your ERP system with bulk processing.
                   </p>
                 </div>
                 <div className="bg-muted rounded-lg p-4">
                   <h4 className="font-semibold mb-2">Mobile Apps</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-gray-600">
                     Embed shipping functionality into your mobile applications with our SDKs.
                   </p>
                 </div>
@@ -312,7 +312,7 @@ export default function Solutions() {
                   Franchise Model
                 </div>
                 <h2 className="text-4xl font-bold">White-Label Solutions</h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-gray-600">
                   Launch your own branded logistics business with our proven platform and comprehensive support system.
                 </p>
               </div>
@@ -324,7 +324,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Custom Branding</h3>
-                    <p className="text-muted-foreground">Complete white-label dashboard with your logo, colors, and domain name.</p>
+                    <p className="text-gray-600">Complete white-label dashboard with your logo, colors, and domain name.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -333,7 +333,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Revenue Management</h3>
-                    <p className="text-muted-foreground">Built-in tools for pricing, commission tracking, and financial reporting.</p>
+                    <p className="text-gray-600">Built-in tools for pricing, commission tracking, and financial reporting.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -342,7 +342,7 @@ export default function Solutions() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold">Partner Support</h3>
-                    <p className="text-muted-foreground">Dedicated support team, training programs, and marketing assistance.</p>
+                    <p className="text-gray-600">Dedicated support team, training programs, and marketing assistance.</p>
                   </div>
                 </div>
               </div>
@@ -353,19 +353,19 @@ export default function Solutions() {
                 <h3 className="text-xl font-bold mb-4">Franchise Benefits</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Setup Fee</span>
+                    <span className="text-gray-600">Setup Fee</span>
                     <span className="font-semibold">₹2,50,000</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Revenue Share</span>
+                    <span className="text-gray-600">Revenue Share</span>
                     <span className="font-semibold text-accent">15-25%</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Territory Rights</span>
+                    <span className="text-gray-600">Territory Rights</span>
                     <span className="font-semibold">Exclusive</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Support Level</span>
+                    <span className="text-gray-600">Support Level</span>
                     <span className="font-semibold">24/7</span>
                   </div>
                 </div>
@@ -376,16 +376,16 @@ export default function Solutions() {
                 <div className="space-y-4">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary mb-1">₹15L+</div>
-                    <div className="text-sm text-muted-foreground">Average Monthly Revenue</div>
+                    <div className="text-sm text-gray-600">Average Monthly Revenue</div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="text-center">
                       <div className="text-2xl font-bold text-accent">50+</div>
-                      <div className="text-xs text-muted-foreground">Active Partners</div>
+                      <div className="text-xs text-gray-600">Active Partners</div>
                     </div>
                     <div className="text-center">
                       <div className="text-2xl font-bold text-secondary">95%</div>
-                      <div className="text-xs text-muted-foreground">Success Rate</div>
+                      <div className="text-xs text-gray-600">Success Rate</div>
                     </div>
                   </div>
                 </div>

@@ -10,7 +10,6 @@ const navItems = [
   { href: "/platform", label: "Platform Excellence" },
   { href: "/technology", label: "Technology" },
   { href: "/pricing", label: "Pricing" },
-  { href: "/investors", label: "Investors" },
 ];
 
 export default function Navigation() {
@@ -48,7 +47,7 @@ export default function Navigation() {
           {/* Contact Button */}
           <div className="hidden lg:flex items-center space-x-4">
             <Link href="/contact">
-              <Button className="btn-primary" style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}>
+              <Button className="btn-primary bg-primary hover:bg-primary/90 text-primary-foreground">
                 Contact Us
               </Button>
             </Link>
@@ -82,7 +81,7 @@ export default function Navigation() {
           ))}
           <div className="pt-6">
             <Link href="/contact" className="block">
-              <Button className="w-full btn-primary" style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}>
+              <Button className="w-full btn-primary bg-primary hover:bg-primary/90 text-primary-foreground">
                 Contact Us
               </Button>
             </Link>

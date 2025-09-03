@@ -3,11 +3,11 @@ import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from "lucide-react";
 import Logo from "@/components/common/Logo";
 
 const solutions = [
-  { href: "/solutions", label: "B2B Logistics" },
-  { href: "/solutions", label: "B2C Shipping" },
-  { href: "/solutions", label: "Enterprise APIs" },
-  { href: "/solutions", label: "White Label" },
-  { href: "/solutions", label: "International" },
+  { href: "/b2b-logistics", label: "B2B Logistics" },
+  { href: "/b2c-shipping", label: "B2C Shipping" },
+  { href: "/enterprise-apis", label: "Enterprise APIs" },
+  { href: "/white-label", label: "White Label" },
+  { href: "/international", label: "International" },
 ];
 
 const company = [

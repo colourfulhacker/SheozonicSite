@@ -44,7 +44,7 @@ export default function PricingCalculator() {
           deliveryTime: "1-2 days delivery",
           reliability: 95,
           isRecommended: true,
-          icon: "🚚",
+          icon: "📦",
           iconColor: "bg-blue-100"
         },
         {
@@ -64,7 +64,7 @@ export default function PricingCalculator() {
           deliveryTime: "2-4 days delivery",
           reliability: 90,
           isEcoFriendly: true,
-          icon: "🌱",
+          icon: "📦",
           iconColor: "bg-green-100"
         }
       ];
@@ -78,7 +78,7 @@ export default function PricingCalculator() {
     <div className="bg-muted/30 rounded-3xl p-8 lg:p-12">
       <div className="text-center mb-8">
         <h3 className="text-3xl font-bold mb-4">Shipping Cost Calculator</h3>
-        <p className="text-lg text-muted-foreground">Get instant quotes from multiple couriers</p>
+        <p className="text-lg text-gray-600">Get instant quotes from multiple couriers</p>
       </div>
       
       <div className="max-w-4xl mx-auto">
@@ -163,7 +163,7 @@ export default function PricingCalculator() {
                       </div>
                       <div>
                         <div className="font-semibold">{quote.name}</div>
-                        <div className="text-sm text-muted-foreground">{quote.deliveryTime}</div>
+                        <div className="text-sm text-gray-600">{quote.deliveryTime}</div>
                       </div>
                     </div>
                     <div className="text-right">
@@ -171,7 +171,7 @@ export default function PricingCalculator() {
                       <div className={`text-sm ${
                         quote.isRecommended ? 'text-accent' :
                         quote.isCheapest ? 'text-secondary' :
-                        quote.isEcoFriendly ? 'text-accent' : 'text-muted-foreground'
+                        quote.isEcoFriendly ? 'text-accent' : 'text-gray-600'
                       }`}>
                         {quote.isRecommended && "AI Recommended"}
                         {quote.isCheapest && "Best Price"}
@@ -180,7 +180,7 @@ export default function PricingCalculator() {
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-muted-foreground">
+                    <span className="text-gray-600">
                       {quote.isEcoFriendly ? "Carbon Footprint" : "Reliability Score"}
                     </span>
                     <span className={`font-medium ${quote.isEcoFriendly ? 'text-accent' : ''}`}>
@@ -190,7 +190,7 @@ export default function PricingCalculator() {
                 </Card>
               ))
             ) : (
-              <div className="flex items-center justify-center h-64 text-muted-foreground">
+              <div className="flex items-center justify-center h-64 text-gray-600">
                 <div className="text-center">
                   <Calculator className="w-16 h-16 mx-auto mb-4 opacity-50" />
                   <p>Enter shipping details to get instant quotes</p>
