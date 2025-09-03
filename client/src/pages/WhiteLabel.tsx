@@ -84,7 +84,7 @@ export default function WhiteLabel() {
               
               <Card className="p-8 hover-lift border-2 border-secondary/20">
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
-                  <Settings className="w-8 h-8 text-white" />
+                  <Settings className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Admin Dashboard</h3>
                 <p className="text-gray-600 mb-6">Comprehensive admin panel to manage users, pricing, courier partners, and platform settings.</p>
@@ -204,7 +204,7 @@ export default function WhiteLabel() {
               
               <Card className="p-6 text-center hover-lift">
                 <div className="w-16 h-16 bg-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                  <CheckCircle className="w-8 h-8 text-white" />
+                  <CheckCircle className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-lg font-bold mb-3 text-gray-900">Testing</h3>
                 <p className="text-gray-600 text-sm">Thorough testing and quality assurance to ensure everything works perfectly.</p>

@@ -84,7 +84,7 @@ export default function International() {
               
               <Card className="p-8 hover-lift border-2 border-secondary/20">
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
-                  <Shield className="w-8 h-8 text-white" />
+                  <Shield className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Customs & Compliance</h3>
                 <p className="text-gray-600 mb-6">Automated customs clearance and compliance management for hassle-free international shipping.</p>
@@ -216,7 +216,7 @@ export default function International() {
               
               <Card className="p-8 text-center hover-lift">
                 <div className="w-16 h-16 bg-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                  <DollarSign className="w-8 h-8 text-white" />
+                  <DollarSign className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">Economy International</h3>
                 <p className="text-gray-600 mb-4">Most affordable option for non-urgent international shipments.</p>

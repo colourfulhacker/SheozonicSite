@@ -84,7 +84,7 @@ export default function B2CShipping() {
               
               <Card className="p-8 hover-lift border-2 border-secondary/20">
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
-                  <Truck className="w-8 h-8 text-white" />
+                  <Truck className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Express Delivery</h3>
                 <p className="text-gray-600 mb-6">Same-day and next-day delivery options for urgent shipments across major Indian cities.</p>

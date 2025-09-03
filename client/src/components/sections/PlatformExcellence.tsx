@@ -101,7 +101,9 @@ export default function PlatformExcellence() {
                   index === 1 ? 'gradient-accent' : 
                   'bg-secondary'
                 }`}>
-                  <advantage.icon className="w-8 h-8 text-white" />
+                  <advantage.icon className={`w-8 h-8 ${
+                    index === 2 ? 'text-secondary-foreground' : 'text-white'
+                  }`} />
                 </div>
                 <h4 className="text-xl font-bold text-gray-900">{advantage.title}</h4>
                 <div className="space-y-2 text-gray-600">

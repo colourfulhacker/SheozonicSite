@@ -84,7 +84,7 @@ export default function B2BLogistics() {
               
               <Card className="p-8 hover-lift border-2 border-secondary/20">
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
-                  <Users className="w-8 h-8 text-white" />
+                  <Users className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Team Management</h3>
                 <p className="text-gray-600 mb-6">Multi-user access with role-based permissions and team collaboration tools for enterprise teams.</p>

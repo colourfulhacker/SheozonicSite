@@ -84,7 +84,7 @@ export default function EnterpriseAPIs() {
               
               <Card className="p-8 hover-lift border-2 border-secondary/20">
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
-                  <Database className="w-8 h-8 text-white" />
+                  <Database className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Bulk Operations</h3>
                 <p className="text-gray-600 mb-6">Process thousands of shipments with bulk APIs for quotes, bookings, and tracking operations.</p>
@@ -200,7 +200,7 @@ export default function EnterpriseAPIs() {
               
               <Card className="p-8 text-center hover-lift">
                 <div className="w-16 h-16 bg-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                  <Globe className="w-8 h-8 text-white" />
+                  <Globe className="w-8 h-8 text-secondary-foreground" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900">Global CDN</h3>
                 <p className="text-gray-600">High-performance global CDN with 99.9% uptime SLA and sub-100ms response times.</p>
