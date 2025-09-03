@@ -45,14 +45,13 @@ export default function Navigation() {
             ))}
           </div>
           
-          {/* CTA Buttons */}
+          {/* Contact Button */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="ghost" data-testid="button-login">
-              Login
-            </Button>
-            <Button data-testid="button-get-started">
-              Get Started
-            </Button>
+            <Link href="/contact">
+              <Button className="btn-primary" style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}>
+                Contact Us
+              </Button>
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -81,13 +80,12 @@ export default function Navigation() {
               {item.label}
             </Link>
           ))}
-          <div className="pt-6 space-y-4">
-            <Button variant="outline" className="w-full" data-testid="mobile-button-login">
-              Login
-            </Button>
-            <Button className="w-full" data-testid="mobile-button-get-started">
-              Get Started
-            </Button>
+          <div className="pt-6">
+            <Link href="/contact" className="block">
+              <Button className="w-full btn-primary" style={{background: 'linear-gradient(135deg, hsl(18, 100%, 55%) 0%, hsl(35, 100%, 50%) 100%)', color: 'white'}}>
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

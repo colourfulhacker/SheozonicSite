@@ -57,11 +57,11 @@ export default function PlatformExcellence() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Platform <span className="text-gradient">Excellence</span>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>
+            <span style={{color: 'hsl(18, 100%, 55%)'}}>Platform</span> <span className="text-gradient-indian">Excellence</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            How Sheozonic transforms logistics challenges into competitive advantages for modern businesses.
+          <p className="text-xl max-w-3xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
+            💪 <strong>How Sheozonic transforms logistics challenges into competitive advantages</strong> for modern businesses.
           </p>
         </div>
         
@@ -87,10 +87,10 @@ export default function PlatformExcellence() {
         </div>
         
         {/* Competitive Advantage */}
-        <div className="bg-muted/30 rounded-3xl p-8 lg:p-12">
+        <div className="bg-white/60 rounded-3xl p-8 lg:p-12 border-2 border-orange-200">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4">Competitive Advantages</h3>
-            <p className="text-xl text-muted-foreground">Why leading enterprises choose Sheozonic over traditional platforms</p>
+            <h3 className="text-3xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Competitive Advantages</h3>
+            <p className="text-xl" style={{color: 'hsl(220, 40%, 25%)'}}>Why leading enterprises choose Sheozonic over traditional platforms 🏆</p>
           </div>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -103,10 +103,10 @@ export default function PlatformExcellence() {
                 }`}>
                   <advantage.icon className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-xl font-bold">{advantage.title}</h4>
-                <div className="space-y-2 text-muted-foreground">
+                <h4 className="text-xl font-bold" style={{color: 'hsl(220, 40%, 15%)'}}>{advantage.title}</h4>
+                <div className="space-y-2" style={{color: 'hsl(220, 40%, 35%)'}}>
                   {advantage.features.map((feature, featureIndex) => (
-                    <p key={featureIndex}>✓ {feature}</p>
+                    <p key={featureIndex}><span style={{color: 'hsl(134, 85%, 45%)', fontWeight: 'bold'}}>✓</span> {feature}</p>
                   ))}
                 </div>
               </div>

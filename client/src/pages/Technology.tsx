@@ -151,8 +151,8 @@ export default function Technology() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Advanced AI Capabilities</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>Advanced AI Capabilities</h2>
+            <p className="text-xl max-w-3xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
               Cutting-edge features that set Sheozonic apart from traditional logistics platforms
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function Technology() {
               <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Fraud & Risk Detection</h3>
-              <p className="text-muted-foreground mb-6">
+              <h3 className="text-xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Fraud & Risk Detection</h3>
+              <p className="mb-6" style={{color: 'hsl(220, 40%, 35%)'}}>
                 Advanced ML algorithms analyze behavioral patterns to identify suspicious activities 
                 and prevent fraudulent COD orders before they impact your business.
               </p>
@@ -461,7 +461,7 @@ export default function Technology() {
             
             <Card className="p-6 text-center hover-lift">
               <div className="w-16 h-16 bg-secondary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <Database className="w-8 h-8 text-white" />
+                <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">GDPR Ready</h3>
               <p className="text-sm text-muted-foreground">Data protection and privacy compliance framework</p>
@@ -469,7 +469,7 @@ export default function Technology() {
             
             <Card className="p-6 text-center hover-lift">
               <div className="w-16 h-16 bg-primary rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <Zap className="w-8 h-8 text-white" />
+                <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold mb-2">256-bit SSL</h3>
               <p className="text-sm text-muted-foreground">End-to-end encryption for all data transmissions</p>

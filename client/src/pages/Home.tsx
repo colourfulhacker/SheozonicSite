@@ -214,17 +214,17 @@ export default function Home() {
 
       {/* Technology Section */}
       <section className="py-20 gradient-innovation relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-blue-50/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-green-900/20"></div>
         <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 bg-blue-600 rounded-full text-white font-bold mb-6 shadow-lg animate-pulse">
               🤖 AI-Powered Innovation
             </div>
-            <h2 className="text-5xl lg:text-6xl font-black mb-6 text-white">
+            <h2 className="text-5xl lg:text-6xl font-black mb-6" style={{color: 'hsl(220, 40%, 15%)'}}>
               🎆 Intelligent <span className="text-gradient-indian">Technology</span> 💻
             </h2>
-            <p className="text-2xl font-semibold max-w-4xl mx-auto text-white">
+            <p className="text-2xl font-semibold max-w-4xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
               🚀 <strong>Revolutionary AI algorithms transforming Indian logistics!</strong> Advanced machine learning 
               and smart technology drive unprecedented optimization for businesses across India! 🇮🇳✨
             </p>
@@ -233,8 +233,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h3 className="text-3xl font-bold">Intelligent Decision Engine</h3>
-                <p className="text-lg text-muted-foreground">
+                <h3 className="text-3xl font-bold" style={{color: 'hsl(220, 40%, 15%)'}}>Intelligent Decision Engine</h3>
+                <p className="text-lg" style={{color: 'hsl(220, 40%, 35%)'}}>
                   Our AI analyzes thousands of data points in real-time to optimize every shipment decision.
                 </p>
               </div>
@@ -245,8 +245,8 @@ export default function Home() {
                     <Brain className="w-6 h-6 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold">Smart Courier Selection</h4>
-                    <p className="text-muted-foreground">Intelligent algorithms predict the optimal courier based on cost, speed, and reliability for each specific route.</p>
+                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Smart Courier Selection</h4>
+                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Intelligent algorithms predict the optimal courier based on cost, speed, and reliability for each specific route.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -254,8 +254,8 @@ export default function Home() {
                     <Clock className="w-6 h-6 text-accent" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold">Predictive ETA Engine</h4>
-                    <p className="text-muted-foreground">Machine learning models forecast accurate delivery times using weather, traffic, and historical data.</p>
+                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Predictive ETA Engine</h4>
+                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Machine learning models forecast accurate delivery times using weather, traffic, and historical data.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -263,8 +263,8 @@ export default function Home() {
                     <TrendingUp className="w-6 h-6 text-secondary" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold">Dynamic Pricing</h4>
-                    <p className="text-muted-foreground">Real-time rate optimization based on demand patterns, courier capacity, and market conditions.</p>
+                    <h4 className="text-lg font-semibold" style={{color: 'hsl(220, 40%, 15%)'}}>Dynamic Pricing</h4>
+                    <p style={{color: 'hsl(220, 40%, 35%)'}}>Real-time rate optimization based on demand patterns, courier capacity, and market conditions.</p>
                   </div>
                 </div>
               </div>
@@ -333,8 +333,8 @@ export default function Home() {
               <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Smart Risk Detection</h3>
-              <p className="text-muted-foreground mb-6">Advanced algorithms identify suspicious patterns and prevent fraudulent COD orders, protecting your business revenue.</p>
+              <h3 className="text-xl font-bold mb-4" style={{color: 'hsl(220, 40%, 15%)'}}>Smart Risk Detection</h3>
+              <p className="mb-6" style={{color: 'hsl(220, 40%, 35%)'}}>Advanced algorithms identify suspicious patterns and prevent fraudulent COD orders, protecting your business revenue.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
