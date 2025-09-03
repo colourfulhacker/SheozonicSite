@@ -5,16 +5,25 @@ import ecommerceImage from "@assets/generated_images/Indian_e-commerce_seller_sh
 
 export default function About() {
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 gradient-indian relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-white/95 to-orange-50/90"></div>
+      <div className="absolute top-20 right-10 w-80 h-80 gradient-accent rounded-full opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-40 left-10 w-60 h-60 gradient-primary rounded-full opacity-15 blur-2xl animate-bounce" style={{animationDelay: '1s'}}></div>
+      <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              About <span className="text-gradient-vibrant">Sheozonic</span>
+            <div className="inline-flex items-center px-8 py-4 gradient-vibrant rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
+              🇮🇳 🚀 Indian Innovation Story
+            </div>
+            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
+              About <span className="text-gradient-indian">Sheozonic</span> 🎆
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Building the next-generation logistics aggregator platform that unifies B2B and B2C shipping needs under one intelligent ecosystem.
+            <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
+              🔥 <strong>Building India's most revolutionary logistics platform!</strong> We're creating the next-generation 
+              aggregator that unifies B2B and B2C shipping with intelligent AI technology, solving problems that 
+              traditional players can't even imagine! 🤖✨🇮🇳
             </p>
           </div>
           
@@ -300,6 +309,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

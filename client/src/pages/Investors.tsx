@@ -127,17 +127,25 @@ export default function Investors() {
   ];
 
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 gradient-indian relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-yellow-50/95 to-green-50/85"></div>
+      <div className="absolute top-10 left-10 w-96 h-96 gradient-accent rounded-full opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-10 right-10 w-80 h-80 gradient-primary rounded-full opacity-15 blur-2xl animate-bounce" style={{animationDelay: '2s'}}></div>
+      <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              Investor <span className="text-gradient">Opportunity</span>
+            <div className="inline-flex items-center px-8 py-4 gradient-vibrant rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
+              💰 🇮🇳 🚀 Unicorn Investment Opportunity
+            </div>
+            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
+              Investor <span className="text-gradient-indian">Opportunity</span> 💸✨
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Join us in revolutionizing India's ₹2.5 trillion logistics market with scalable technology, 
-              proven business models, and massive growth potential.
+            <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
+              🔥 <strong>Join India's next logistics unicorn!</strong> Revolutionary opportunity to invest in the 
+              ₹2.5 trillion logistics transformation with breakthrough technology, proven business models, 
+              and explosive growth potential! 🚀💪🇮🇳
             </p>
           </div>
           
@@ -453,6 +461,7 @@ export default function Investors() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

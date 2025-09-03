@@ -33,14 +33,20 @@ export default function Home() {
       <Hero />
       
       {/* Solutions Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 gradient-warm opacity-95 relative">
+        <div className="absolute inset-0 bg-white/85"></div>
+        <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Complete <span className="text-gradient">Logistics Solutions</span>
+            <div className="inline-flex items-center px-6 py-3 gradient-accent rounded-full text-white font-bold mb-6 shadow-lg">
+              🔍 Problem Solving Excellence
+            </div>
+            <h2 className="text-5xl lg:text-6xl font-black mb-6">
+              🎆 Complete <span className="text-gradient-indian">Logistics Solutions</span> 🚚
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              From individual shipments to enterprise-scale logistics, Sheozonic powers every aspect of modern shipping needs.
+            <p className="text-2xl font-semibold max-w-4xl mx-auto" style={{color: 'hsl(220, 40%, 25%)'}}>
+              🔥 <strong>Solving India's biggest logistics challenges!</strong> From individual shipments to enterprise-scale operations, 
+              Sheozonic revolutionizes every aspect of modern shipping with AI-powered intelligence! 🤖✨
             </p>
           </div>
           
@@ -201,19 +207,26 @@ export default function Home() {
             </Card>
           </div>
         </div>
+        </div>
       </section>
 
       <PlatformExcellence />
 
       {/* Technology Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 gradient-innovation relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-blue-50/80"></div>
+        <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Intelligent <span className="text-gradient-vibrant">Technology</span>
+            <div className="inline-flex items-center px-6 py-3 bg-blue-600 rounded-full text-white font-bold mb-6 shadow-lg animate-pulse">
+              🤖 AI-Powered Innovation
+            </div>
+            <h2 className="text-5xl lg:text-6xl font-black mb-6 text-white">
+              🎆 Intelligent <span className="text-gradient-indian">Technology</span> 💻
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Advanced technology and smart algorithms drive every aspect of our logistics optimization for Indian businesses.
+            <p className="text-2xl font-semibold max-w-4xl mx-auto text-white">
+              🚀 <strong>Revolutionary AI algorithms transforming Indian logistics!</strong> Advanced machine learning 
+              and smart technology drive unprecedented optimization for businesses across India! 🇮🇳✨
             </p>
           </div>
           
@@ -383,6 +396,7 @@ export default function Home() {
             </Card>
           </div>
         </div>
+        </div>
       </section>
 
       {/* Pricing Calculator Section */}
@@ -393,14 +407,21 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 gradient-primary">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="space-y-8">
-            <h2 className="text-4xl lg:text-5xl font-bold text-white">
-              Ready to Transform Your Logistics?
+      <section className="py-20 gradient-indian relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-500/90 to-green-500/90"></div>
+        <div className="absolute top-10 left-20 w-40 h-40 bg-yellow-400 rounded-full opacity-20 blur-2xl animate-bounce"></div>
+        <div className="absolute bottom-10 right-20 w-60 h-60 bg-orange-400 rounded-full opacity-25 blur-3xl animate-pulse"></div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="space-y-10">
+            <div className="inline-flex items-center px-8 py-4 bg-white/20 rounded-full text-white font-bold text-lg mb-6 shadow-xl">
+              🚀 Join the Logistics Revolution!
+            </div>
+            <h2 className="text-5xl lg:text-7xl font-black text-white leading-tight">
+              Ready to Transform 🔄 <br/>Your <span className="text-yellow-300">Logistics</span>? 🚚✨
             </h2>
-            <p className="text-xl text-white/80 max-w-2xl mx-auto">
-              Join thousands of businesses already using Sheozonic to optimize their shipping operations with AI-powered intelligence.
+            <p className="text-2xl text-white font-semibold max-w-4xl mx-auto">
+              🎆 <strong>Join 10,000+ businesses revolutionizing their shipping!</strong> Experience the power of 
+              AI-driven logistics optimization that's transforming India's supply chain! 🇮🇳💪
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">

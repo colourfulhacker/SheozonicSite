@@ -5,17 +5,24 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Technology() {
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 gradient-innovation relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/90 to-purple-50/80"></div>
+      <div className="absolute top-20 right-10 w-96 h-96 gradient-accent rounded-full opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-10 left-10 w-72 h-72 gradient-primary rounded-full opacity-15 blur-2xl animate-bounce" style={{animationDelay: '1s'}}></div>
+      <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              AI-Powered <span className="text-gradient">Technology</span>
+            <div className="inline-flex items-center px-8 py-4 bg-blue-600 rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
+              🤖 🇮🇳 AI Innovation Hub
+            </div>
+            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
+              AI-Powered <span className="text-gradient-innovation">Technology</span> 🎯
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Advanced artificial intelligence and machine learning drive every aspect of our logistics optimization, 
-              delivering unprecedented efficiency and intelligence to Indian logistics.
+            <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
+              🚀 <strong>Revolutionary AI transforming India's logistics DNA!</strong> Advanced machine learning and 
+              breakthrough algorithms deliver mind-blowing efficiency and intelligence that's redefining how India ships! 🧠⚡🇮🇳
             </p>
           </div>
         </div>
@@ -470,6 +477,7 @@ export default function Technology() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

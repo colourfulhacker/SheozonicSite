@@ -7,52 +7,59 @@ import teamImage from "@assets/generated_images/Indian_business_team_office_5664
 export default function Hero() {
   return (
     <section className="pt-24 pb-16 relative overflow-hidden">
-      <div className="absolute inset-0 gradient-primary opacity-5"></div>
+      <div className="absolute inset-0 gradient-indian opacity-10"></div>
+      <div className="absolute top-20 left-10 w-72 h-72 gradient-primary rounded-full opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 gradient-accent rounded-full opacity-15 blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <div className="inline-flex items-center px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                <Sparkles className="w-4 h-4 mr-2" />
-                Next-Generation Logistics Platform
+              <div className="inline-flex items-center px-6 py-3 gradient-indian rounded-full text-sm font-bold text-white shadow-lg hover-glow">
+                <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
+                🚀 Revolutionary Logistics Platform for India
               </div>
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Smart <span className="text-gradient-vibrant">Logistics</span> for Modern India
+              <h1 className="text-5xl lg:text-7xl font-black leading-tight">
+                Smart <span className="text-gradient-indian">Logistics</span> <br/>for <span className="text-gradient-innovation">Modern India</span> 🇮🇳
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Unify B2B and B2C shipping with intelligent courier selection, instant quotations, and enterprise-grade APIs. 
-                Scale your logistics operations with India's most advanced aggregator platform.
+              <p className="text-xl leading-relaxed font-medium" style={{color: 'hsl(220, 40%, 25%)'}}>
+                🔥 <strong>Revolutionizing logistics across India!</strong> Unify B2B and B2C shipping with AI-powered courier selection, 
+                lightning-fast quotations, and enterprise-grade APIs. Join the logistics revolution that's transforming 
+                how India ships! ⚡
               </p>
             </div>
             
-            <div className="grid grid-cols-2 gap-6">
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-primary">₹50L+</div>
-                <div className="text-sm text-muted-foreground">Monthly Savings</div>
+            <div className="grid grid-cols-3 gap-6">
+              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+                <div className="text-4xl font-black text-gradient-indian">₹50L+</div>
+                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>💰 Monthly Savings</div>
               </div>
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-primary">99.8%</div>
-                <div className="text-sm text-muted-foreground">Delivery Accuracy</div>
+              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+                <div className="text-4xl font-black text-gradient-innovation">99.8%</div>
+                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>🎯 Delivery Accuracy</div>
+              </div>
+              <div className="text-center card-vibrant p-4 rounded-2xl hover-lift">
+                <div className="text-4xl font-black text-gradient-vibrant">10K+</div>
+                <div className="text-sm font-semibold" style={{color: 'hsl(220, 40%, 40%)'}}>🏢 Happy Businesses</div>
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-6">
               <Button 
                 size="lg" 
-                className="px-8 py-4 text-lg font-semibold"
+                className="px-10 py-6 text-xl font-bold gradient-indian hover-glow transform hover:scale-105 transition-all duration-300 shadow-2xl"
                 data-testid="button-start-trial"
               >
-                <Rocket className="w-5 h-5 mr-2" />
-                Start Free Trial
+                <Rocket className="w-6 h-6 mr-3 animate-bounce" />
+                🚀 Start FREE Trial - 30 Days!
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="px-8 py-4 text-lg font-semibold"
+                className="px-10 py-6 text-xl font-bold border-4 border-primary text-primary hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 shadow-xl"
                 data-testid="button-watch-demo"
               >
-                <Play className="w-5 h-5 mr-2" />
-                Watch Demo
+                <Play className="w-6 h-6 mr-3" />
+                🎬 Watch Live Demo
               </Button>
             </div>
           </div>

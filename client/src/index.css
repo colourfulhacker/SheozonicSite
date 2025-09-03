@@ -4,30 +4,36 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(210, 15%, 98%);
-  --foreground: hsl(210, 30%, 8%);
-  --card: hsl(210, 15%, 100%);
-  --card-foreground: hsl(210, 30%, 12%);
-  --popover: hsl(210, 15%, 100%);
-  --popover-foreground: hsl(210, 30%, 8%);
-  --primary: hsl(14, 95%, 55%);
+  --background: hsl(45, 100%, 98%);
+  --foreground: hsl(220, 40%, 15%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(220, 40%, 15%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(220, 40%, 15%);
+  --primary: hsl(18, 100%, 55%);
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(39, 95%, 55%);
-  --secondary-foreground: hsl(210, 30%, 12%);
-  --muted: hsl(210, 25%, 94%);
-  --muted-foreground: hsl(210, 30%, 40%);
-  --accent: hsl(142, 76%, 36%);
+  --secondary: hsl(35, 100%, 50%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(45, 50%, 94%);
+  --muted-foreground: hsl(220, 20%, 50%);
+  --accent: hsl(134, 85%, 45%);
   --accent-foreground: hsl(0, 0%, 100%);
   --destructive: hsl(0, 90%, 60%);
   --destructive-foreground: hsl(0, 0%, 100%);
-  --border: hsl(210, 25%, 87%);
-  --input: hsl(210, 25%, 87%);
-  --ring: hsl(14, 95%, 55%);
-  --chart-1: hsl(14, 95%, 55%);
-  --chart-2: hsl(218, 85%, 65%);
-  --chart-3: hsl(142, 76%, 36%);
-  --chart-4: hsl(39, 95%, 55%);
-  --chart-5: hsl(292, 90%, 65%);
+  --border: hsl(45, 30%, 85%);
+  --input: hsl(45, 30%, 90%);
+  --ring: hsl(18, 100%, 55%);
+  --chart-1: hsl(18, 100%, 55%);
+  --chart-2: hsl(260, 95%, 65%);
+  --chart-3: hsl(134, 85%, 45%);
+  --chart-4: hsl(35, 100%, 50%);
+  --chart-5: hsl(310, 90%, 65%);
+  --indian-orange: hsl(18, 100%, 55%);
+  --indian-green: hsl(134, 85%, 45%);
+  --indian-blue: hsl(220, 85%, 55%);
+  --warm-orange: hsl(25, 95%, 60%);
+  --vibrant-orange: hsl(15, 100%, 58%);
+  --golden-yellow: hsl(45, 100%, 55%);
   --sidebar: hsl(210, 40%, 100%);
   --sidebar-foreground: hsl(210, 40%, 12%);
   --sidebar-primary: hsl(14, 86%, 60%);
@@ -118,6 +124,18 @@
     background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--secondary)) 100%);
   }
   
+  .gradient-indian {
+    background: linear-gradient(135deg, hsl(var(--indian-orange)) 0%, hsl(var(--indian-green)) 50%, hsl(var(--golden-yellow)) 100%);
+  }
+  
+  .gradient-warm {
+    background: linear-gradient(135deg, hsl(var(--vibrant-orange)) 0%, hsl(var(--warm-orange)) 100%);
+  }
+  
+  .gradient-innovation {
+    background: linear-gradient(135deg, hsl(var(--indian-blue)) 0%, hsl(var(--primary)) 50%, hsl(var(--accent)) 100%);
+  }
+  
   .text-gradient {
     background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
     -webkit-background-clip: text;
@@ -132,13 +150,50 @@
     background-clip: text;
   }
   
+  .text-gradient-indian {
+    background: linear-gradient(135deg, hsl(var(--indian-orange)) 0%, hsl(var(--indian-green)) 50%, hsl(var(--golden-yellow)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-innovation {
+    background: linear-gradient(135deg, hsl(var(--indian-blue)) 0%, hsl(var(--vibrant-orange)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
   .hover-lift {
     transition: all 0.3s ease;
   }
   
   .hover-lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15), 0 10px 30px rgba(255, 102, 0, 0.2);
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 30px rgba(255, 102, 0, 0.4), 0 0 60px rgba(255, 102, 0, 0.2);
+  }
+  
+  .card-vibrant {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 248, 240, 0.95) 100%);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+  }
+  
+  .card-vibrant::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(145deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
+    border-radius: inherit;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1;
   }
   
   .pulse-animation {
@@ -165,6 +220,33 @@
   .custom-scroll::-webkit-scrollbar-thumb {
     background: hsl(var(--primary));
     border-radius: 3px;
+  }
+  
+  .mobile-optimized {
+    @apply text-4xl lg:text-8xl font-black leading-tight;
+  }
+  
+  .mobile-hero-text {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold;
+  }
+  
+  .mobile-cta {
+    @apply px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-xl font-bold;
+  }
+  
+  @media (max-width: 640px) {
+    .mobile-optimized {
+      font-size: 2.5rem;
+      line-height: 1.1;
+    }
+    
+    .gradient-indian, .gradient-innovation, .gradient-vibrant {
+      background-attachment: scroll;
+    }
+    
+    .animate-pulse, .animate-bounce {
+      animation-duration: 3s;
+    }
   }
 }
 

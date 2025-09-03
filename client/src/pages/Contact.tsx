@@ -78,17 +78,24 @@ export default function Contact() {
   ];
 
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen pt-24 gradient-warm relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-50/95 to-yellow-50/85"></div>
+      <div className="absolute top-20 right-1/4 w-72 h-72 gradient-primary rounded-full opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 left-1/4 w-88 h-88 gradient-accent rounded-full opacity-15 blur-2xl animate-bounce" style={{animationDelay: '1.5s'}}></div>
+      <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              Get in <span className="text-gradient">Touch</span>
+            <div className="inline-flex items-center px-8 py-4 gradient-accent rounded-full text-white font-bold text-lg mb-8 shadow-xl animate-pulse">
+              💬 🇮🇳 Let's Connect & Transform!
+            </div>
+            <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-tight">
+              Get in <span className="text-gradient-indian">Touch</span> 🤝
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to transform your logistics operations? We're here to help you get started 
-              with personalized solutions and expert guidance.
+            <p className="text-2xl font-bold max-w-5xl mx-auto text-gray-700">
+              🚀 <strong>Ready to revolutionize your logistics?</strong> Our team of experts is excited to help 
+              you get started with personalized solutions that will transform your shipping operations! 📦✨🇮🇳
             </p>
           </div>
         </div>
@@ -465,6 +472,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }
