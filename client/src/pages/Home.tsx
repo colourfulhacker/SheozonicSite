@@ -3,6 +3,8 @@ import PlatformExcellence from "@/components/sections/PlatformExcellence";
 import PricingCalculator from "@/components/sections/PricingCalculator";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import deliveryImage from "@assets/generated_images/Indian_delivery_street_scene_69f9cb10.png";
+import ecommerceImage from "@assets/generated_images/Indian_e-commerce_seller_shop_69b205a6.png";
 import { 
   Building2, 
   Users, 
@@ -208,10 +210,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              AI-Powered <span className="text-gradient">Technology</span>
+              Intelligent <span className="text-gradient-vibrant">Technology</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Advanced artificial intelligence and machine learning drive every aspect of our logistics optimization.
+              Advanced technology and smart algorithms drive every aspect of our logistics optimization for Indian businesses.
             </p>
           </div>
           
@@ -226,12 +228,12 @@ export default function Home() {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                    <Brain className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-lg font-semibold">AI Courier Selection</h4>
-                    <p className="text-muted-foreground">Predicts the optimal courier based on cost, speed, and reliability for each specific route.</p>
+                    <h4 className="text-lg font-semibold">Smart Courier Selection</h4>
+                    <p className="text-muted-foreground">Intelligent algorithms predict the optimal courier based on cost, speed, and reliability for each specific route.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -255,73 +257,71 @@ export default function Home() {
               </div>
             </div>
             
-            <Card className="p-8 hover-lift">
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h4 className="text-lg font-semibold">AI Processing Status</h4>
-                  <div className="text-sm text-accent font-medium">Live Analysis</div>
-                </div>
-                
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span>Route Optimization</span>
-                      <span className="text-accent">98%</span>
+            <div className="relative">
+              <img 
+                src={deliveryImage} 
+                alt="Indian delivery person in busy street"
+                className="w-full h-64 object-cover rounded-2xl"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent rounded-2xl"></div>
+              <Card className="absolute bottom-4 left-4 right-4 glassmorphism p-6 hover-lift">
+                <div className="space-y-6">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-lg font-semibold text-white">Live Processing</h4>
+                    <div className="text-sm text-accent font-medium">Real-time Analysis</div>
+                  </div>
+                  
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-sm text-white/90">
+                        <span>Route Optimization</span>
+                        <span className="text-accent font-bold">98%</span>
+                      </div>
+                      <div className="w-full bg-white/20 rounded-full h-2">
+                        <div className="bg-accent h-2 rounded-full w-[98%]"></div>
+                      </div>
                     </div>
-                    <div className="w-full bg-muted rounded-full h-2">
-                      <div className="bg-accent h-2 rounded-full w-[98%]"></div>
+                  
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-sm text-white/90">
+                        <span>Smart Routing</span>
+                        <span className="text-secondary font-bold">97%</span>
+                      </div>
+                      <div className="w-full bg-white/20 rounded-full h-2">
+                        <div className="bg-secondary h-2 rounded-full w-[97%]"></div>
+                      </div>
                     </div>
                   </div>
                   
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span>Fraud Detection</span>
-                      <span className="text-primary">94%</span>
-                    </div>
-                    <div className="w-full bg-muted rounded-full h-2">
-                      <div className="bg-primary h-2 rounded-full w-[94%]"></div>
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span>Price Prediction</span>
-                      <span className="text-secondary">97%</span>
-                    </div>
-                    <div className="w-full bg-muted rounded-full h-2">
-                      <div className="bg-secondary h-2 rounded-full w-[97%]"></div>
+                  <div className="border-t border-white/20 pt-4">
+                    <div className="grid grid-cols-3 gap-4 text-center">
+                      <div>
+                        <div className="text-lg font-bold text-accent">24/7</div>
+                        <div className="text-xs text-white/80">Processing</div>
+                      </div>
+                      <div>
+                        <div className="text-lg font-bold text-secondary">99.8%</div>
+                        <div className="text-xs text-white/80">Success Rate</div>
+                      </div>
+                      <div>
+                        <div className="text-lg font-bold text-primary">10K+</div>
+                        <div className="text-xs text-white/80">Daily Orders</div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                
-                <div className="border-t border-border pt-4">
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    <div>
-                      <div className="text-lg font-bold text-primary">1.2M+</div>
-                      <div className="text-xs text-muted-foreground">Data Points</div>
-                    </div>
-                    <div>
-                      <div className="text-lg font-bold text-accent">24/7</div>
-                      <div className="text-xs text-muted-foreground">Processing</div>
-                    </div>
-                    <div>
-                      <div className="text-lg font-bold text-secondary">99.9%</div>
-                      <div className="text-xs text-muted-foreground">Accuracy</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Card>
+              </Card>
+            </div>
           </div>
           
           {/* Advanced Features Grid */}
           <div className="grid lg:grid-cols-3 gap-8">
-            <Card className="p-8 hover-lift">
+            <Card className="p-8 hover-lift border-2 border-primary/20">
               <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Fraud & Risk Detection</h3>
-              <p className="text-muted-foreground mb-6">Advanced ML algorithms identify suspicious patterns and prevent fraudulent COD orders.</p>
+              <h3 className="text-xl font-bold mb-4">Smart Risk Detection</h3>
+              <p className="text-muted-foreground mb-6">Advanced algorithms identify suspicious patterns and prevent fraudulent COD orders, protecting your business revenue.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
@@ -338,12 +338,12 @@ export default function Home() {
               </div>
             </Card>
             
-            <Card className="p-8 hover-lift">
+            <Card className="p-8 hover-lift border-2 border-accent/20">
               <div className="w-16 h-16 gradient-accent rounded-2xl flex items-center justify-center mb-6">
                 <Leaf className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Carbon Footprint Tracker</h3>
-              <p className="text-muted-foreground mb-6">Comprehensive sustainability reporting for eco-conscious businesses and ESG compliance.</p>
+              <h3 className="text-xl font-bold mb-4">Eco-Friendly Tracking</h3>
+              <p className="text-muted-foreground mb-6">Comprehensive sustainability reporting for environmentally conscious businesses and ESG compliance in India.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />
@@ -360,12 +360,12 @@ export default function Home() {
               </div>
             </Card>
             
-            <Card className="p-8 hover-lift">
+            <Card className="p-8 hover-lift border-2 border-secondary/20">
               <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
                 <Route className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Dynamic Routing Engine</h3>
-              <p className="text-muted-foreground mb-6">Intelligent routing that adapts to real-time conditions for optimal delivery performance.</p>
+              <h3 className="text-xl font-bold mb-4">Smart Routing Engine</h3>
+              <p className="text-muted-foreground mb-6">Intelligent routing system that adapts to Indian traffic patterns and weather conditions for optimal delivery performance.</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-accent" />

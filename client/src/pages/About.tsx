@@ -1,5 +1,7 @@
 import { Target, Eye, Users, Award, MapPin, Calendar } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import teamImage from "@assets/generated_images/Indian_business_team_office_56641528.png";
+import ecommerceImage from "@assets/generated_images/Indian_e-commerce_seller_shop_69b205a6.png";
 
 export default function About() {
   return (
@@ -9,7 +11,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              About <span className="text-gradient">Sheozonic</span>
+              About <span className="text-gradient-vibrant">Sheozonic</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Building the next-generation logistics aggregator platform that unifies B2B and B2C shipping needs under one intelligent ecosystem.
@@ -57,36 +59,46 @@ export default function About() {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-12">
-            <Card className="p-8 hover-lift">
-              <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mb-6">
-                <Eye className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Vision</h3>
-              <p className="text-muted-foreground">
-                To become the universal logistics layer for India, enabling seamless collaboration between 
-                e-commerce sellers, enterprises, and API partners with faster deliveries and optimized costs.
-              </p>
-            </Card>
+            <div className="relative">
+              <img 
+                src={teamImage} 
+                alt="Professional Indian business team working together"
+                className="w-full h-48 object-cover rounded-2xl"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent rounded-2xl"></div>
+              <Card className="absolute bottom-4 left-4 right-4 glassmorphism p-6 hover-lift">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center mr-4">
+                    <Eye className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">Our Vision</h3>
+                </div>
+                <p className="text-white/90 text-sm">
+                  To become India's universal logistics layer, enabling seamless collaboration between 
+                  e-commerce sellers, enterprises, and partners with faster deliveries and optimized costs.
+                </p>
+              </Card>
+            </div>
             
-            <Card className="p-8 hover-lift">
+            <Card className="p-8 hover-lift border-2 border-accent/20">
               <div className="w-16 h-16 gradient-accent rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Mission</h3>
               <p className="text-muted-foreground">
-                Democratize access to world-class logistics infrastructure through AI-powered technology, 
-                transparent pricing, and enterprise-grade APIs that scale with business growth.
+                Democratize access to world-class logistics infrastructure through intelligent technology, 
+                transparent pricing, and enterprise-grade APIs that scale with Indian business growth.
               </p>
             </Card>
             
-            <Card className="p-8 hover-lift">
+            <Card className="p-8 hover-lift border-2 border-secondary/20">
               <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Values</h3>
               <p className="text-muted-foreground">
                 Innovation, transparency, customer-centricity, and sustainable growth. We believe in building 
-                technology that empowers businesses while creating positive environmental impact.
+                technology that empowers Indian businesses while creating positive environmental impact.
               </p>
             </Card>
           </div>

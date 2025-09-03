@@ -197,7 +197,7 @@ export default function Pricing() {
                         <span className="text-3xl">Custom Pricing</span>
                       )}
                     </div>
-                    {typeof plan.price.monthly === 'number' && (
+                    {typeof plan.price.monthly === 'number' && typeof plan.price.yearly === 'number' && (
                       <p className="text-sm text-muted-foreground">
                         {isYearly ? 
                           `₹${Math.round(plan.price.yearly / 12).toLocaleString()}/month billed annually` :

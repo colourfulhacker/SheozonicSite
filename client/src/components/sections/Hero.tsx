@@ -1,6 +1,8 @@
 import { Sparkles, Rocket, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import warehouseImage from "@assets/generated_images/Indian_logistics_warehouse_scene_0b680fc0.png";
+import teamImage from "@assets/generated_images/Indian_business_team_office_56641528.png";
 
 export default function Hero() {
   return (
@@ -15,7 +17,7 @@ export default function Hero() {
                 Next-Generation Logistics Platform
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                AI-Powered <span className="text-gradient">Logistics</span> for Modern India
+                Smart <span className="text-gradient-vibrant">Logistics</span> for Modern India
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Unify B2B and B2C shipping with intelligent courier selection, instant quotations, and enterprise-grade APIs. 
@@ -58,47 +60,51 @@ export default function Hero() {
           <div className="relative animate-slide-up">
             <div className="relative">
               {/* Background gradient circle */}
-              <div className="absolute inset-0 gradient-primary opacity-20 rounded-full blur-3xl"></div>
+              <div className="absolute inset-0 gradient-vibrant opacity-15 rounded-3xl blur-3xl"></div>
               
-              {/* Dashboard cards */}
+              {/* Hero Images */}
               <div className="relative space-y-4">
-                <Card className="glassmorphism p-6 hover-lift">
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="text-lg font-semibold">AI Courier Selection</div>
-                    <div className="w-3 h-3 bg-accent rounded-full pulse-animation"></div>
+                <div className="relative overflow-hidden rounded-2xl">
+                  <img 
+                    src={warehouseImage} 
+                    alt="Modern Indian logistics warehouse with delivery operations"
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <Card className="glassmorphism p-4 hover-lift">
+                      <div className="flex items-center justify-between mb-3">
+                        <div className="text-lg font-semibold text-white">Smart Courier Selection</div>
+                        <div className="w-3 h-3 bg-accent rounded-full pulse-animation"></div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm text-white/80">BlueDart Express</span>
+                          <span className="text-accent font-medium">₹145</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm text-white/80">Delhivery Surface</span>
+                          <span className="text-secondary font-medium">₹89</span>
+                        </div>
+                      </div>
+                    </Card>
                   </div>
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground">BlueDart Express</span>
-                      <span className="text-accent font-medium">₹145</span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground">Delhivery Surface</span>
-                      <span className="text-foreground font-medium">₹89</span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-muted-foreground">Ecom Express</span>
-                      <span className="text-muted-foreground font-medium">₹95</span>
-                    </div>
-                  </div>
-                </Card>
+                </div>
                 
-                <Card className="glassmorphism p-6 hover-lift">
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="text-lg font-semibold">Real-time Analytics</div>
-                    <div className="text-primary">📊</div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="text-center">
+                <div className="grid grid-cols-2 gap-4">
+                  <Card className="glassmorphism p-4 hover-lift">
+                    <div className="text-center space-y-2">
                       <div className="text-2xl font-bold text-accent">2,847</div>
-                      <div className="text-xs text-muted-foreground">Shipments</div>
+                      <div className="text-xs text-muted-foreground">Daily Shipments</div>
                     </div>
-                    <div className="text-center">
+                  </Card>
+                  <Card className="glassmorphism p-4 hover-lift">
+                    <div className="text-center space-y-2">
                       <div className="text-2xl font-bold text-primary">98.5%</div>
-                      <div className="text-xs text-muted-foreground">On-time</div>
+                      <div className="text-xs text-muted-foreground">Success Rate</div>
                     </div>
-                  </div>
-                </Card>
+                  </Card>
+                </div>
               </div>
             </div>
           </div>
